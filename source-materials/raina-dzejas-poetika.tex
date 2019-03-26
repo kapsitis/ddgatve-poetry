@@ -1,0 +1,2243 @@
+\documentclass[11pt]{article}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage{changepage}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{lipsum}
+
+\usepackage{xcolor}
+
+\usepackage{makecell}
+
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.27in
+\headheight 1.0in
+\topmargin 0.0in
+\headheight 0.0in
+\headsep 0.0in
+%\textheight 9.69in
+\textheight 9.00in
+
+\setlength\parindent{0pt}
+
+\newenvironment{myenv}{\begin{adjustwidth}{0.4in}{0.4in}}{\end{adjustwidth}}
+\renewcommand{\abstractname}{Anotācija}
+\renewcommand\refname{Atsauces}
+
+\newenvironment{uzdevums}[1][\unskip]{%
+\vspace{3mm}
+\noindent
+\textbf{#1:}
+\noindent}
+{}
+
+\newcommand{\subf}[2]{%
+  {\small\begin{tabular}[t]{@{}c@{}}
+  #1\\#2
+  \end{tabular}}%
+}
+
+
+
+\newcounter{alphnum}
+\newenvironment{alphlist}{\begin{list}{(\Alph{alphnum})}{\usecounter{alphnum}\setlength{\leftmargin}{2.5em}} \rm}{\end{list}}
+
+
+\makeatletter
+\let\saved@bibitem\@bibitem
+\makeatother
+
+\usepackage{bibentry}
+%\usepackage{hyperref}
+
+
+\begin{document}
+
+\begin{center}
+{\LARGE \bf Raiņa dzejas poētika}
+\end{center}
+
+
+
+\section{Tropi un Figūras}
+
+Tropi ir mākslinieciskās izteiksmes līdzeklis, kuram pamatā vārdi
+pārnestā nozīmē. Uz tiem īstenībā balstās dzejas valoda. Taču dažādos
+literāros virzienos dominē kāda noteikta tropu grupa vai atsevišķi
+tropu veidi. Tā klasicisms pēc iespējas izvairās no
+metaforām,\footnote{Angļu daramturgs, dzejnieks un literatūras
+teorētiķis Bens Džonsons par metaforām raksta: "Izmantot metaforas
+vajag tikai nepieciešamības gadījumā vai ērtības nolūkos.. kad mums nav
+precīza vārda, lai izteiktu kādu jēdzienu.. vai arī lai aizstātu
+nepieklājīgu vārdu. Šajā gadījumā metafora uzlabo valodu, piešķirot
+tai lielāku nozīmību. Pārāk mākslotas metaforas tiek saprastas ar grūtībām,
+bet pārāk pušķotas nevar būt smalkas. Visi mēģinājumi izgudrot jaunas
+metaforas ir bīstami. Tās griež ausīs, kamēr, tās ilgāk lietojot,
+pie tām nepierod" -- Cit. pēc: Литературные манифесты западноевропейских
+классицистов. -- М., 1980. -- С. 185-186.}
+priekšroku dodot metonīmijām un alegorijām, turpretī
+romantisms un plašāk -- romantiskā poētiskā tipa lirika kultivē tieši
+metaforas. Spilgts liecinājums tam ir Edvarta Virzas neoklasicistiskā
+posma dzeja (galvenokārt krājums "Dzejas un poēmas", 1933.g.) un
+akmeistiskā posma dzeja (krājums ``Laikmets un lira'', 1923.g.).
+Grāmatā ``Laikmets un lira'' dzejnieks izvairās no metonīmijām,
+priekšroku dodot epitetiem, metaforām, piemēram:
+
+
+\begin{quote}
+Caur vecas ejas tumši zaļiem lokiem, \\
+Kur pamirdz kādas nimfas rožains plecs,\\
+Vēl kolonādi ieapaļu redz\\
+No balta marmora zem augstiem kokiem.\\
+("Kādreizējie")\footnote{{\em Virza E.} Laikmets un lira. --
+R. 1923. -- 75.lpp.}
+\end{quote}
+
+
+\begin{quote}
+Jūs' svārki bij' jums bura, mazā roka airs.\\
+("Madame de Maintenon")\footnote{Turpat. -- 74.lpp.}
+\end{quote}
+
+Turpretī krājumā "Dzejas un poēmas" dominē tieši
+metonīmijas: daļa veselā, vienskaitlis daudzskaitļa vietā
+u.tml. Piemēram, satīras "Deputāts", "Liberāls",
+"Redaktors" u.c.:
+
+\begin{quote}
+Ikkatram latvietim ir Markss vai Luters zināms,\\
+Ar to, kas priekšā tam, tas nava apmierināts.\\
+("Dzeja un dzejnieks")\footnote{Virza. E.
+Dzejas un poēmas. -- R. 1933. -- 20.lpp.}
+\end{quote}
+
+{\color{red}
+Pirms pāriet pie Raiņa dzejas tropu konkrētās analīzes,
+nepieciešams īss ieskats šīs mākslinieciskās izteiksmes
+īpatnības vēsturē un iespējamos cēloņos.
+Dzejniekam (īpaši romantiskā mākslinieciskā tipa pārstāvjiem)
+nepatīk rakstīt tieši, bet vairāk simboliskā valodā,
+lietojot salīdzinājumus, epitetus, personifikācijas,
+metaforas, u.tml. } Ar kādu nolūku tas tiek darīts,
+un kāpēc lasītājs pieņem šos spēles noteikumus?
+Kāpēc, piemēram, rakstot par vienu no mūžīgajām tēmām --
+mīlestību --, dzejnieks parasti nesaka skaidri un tieši
+"Es tevi mīlu, Anna", bet šīs jūtas atklāj "caur puķēm"?
+Tā Rainim dzejoļu krājumā "Addio bella!" starp daudzajiem
+mīlas dzejoļiem ir arī šāds:
+
+\begin{quote}
+Divi balti spilventiņi\\
+Zeltītiem galiņiem --\\
+Kas viņos pagulējis,\\
+Augšā celties negribējis.\\
+(III, 68)
+\end{quote}
+
+Šo dzejoli ir gandrīz neiespējami uztvert, ja lasītājs
+nepārzina tautasdziesmu simboliku. Un, ja viņš to
+nepārzina, tad šī dzejoļa satura skaidrošana var iegūt
+šķietami negaidītus pavērsumus. Tā kāds lasītājs,
+kuram zināšanas par latviešu folkloru patiešām bija
+minimālas, lūgts Raiņa dzejoli komentēt, saistīja to ar
+nomiršanu (pamatojoties uz pēdējo rindu
+"Augšā celties negribēja"). "Divi balti spilventiņi" --
+spilveni nomirējam zārkā. Otrs lasītājs, kuram latviešu
+kultūras reāliju uzkrājums bija bagātīgāks, bet kurš
+nebija speciāli interesējies par folkloru, pirmajā
+brīdī par Raiņa dzejoli teica: "Nezinu, kaut kāds murgs."
+Taču tad, kad šim lasītājam tika doti papildu
+norādījumi ("Tas ir mīlestības dzejolis"),
+viņš bez šaubīšanās divus baltos spilventiņus saistīja
+ar sievietes krūtīm.
+Trešais lasītājs (ar zināmu uzkrājumu foklorā)
+vispirms sasaistīja Raiņa dzejoļa pantmēru
+(četrpēdu trohaju) ar dainu pantmēru. Un Raiņa dzejolī
+lietotās semantēmas nozīme "uznira" no zemapziņā
+iekodētā dainu simboliskā režģa, iespējams, ar
+nojausmu par kādu no dainām, kur figurē divi balti
+kukulīši ("Man pašai azotē / Divi balti kukulīši"
+LD 19900) vai spilventiņi:
+
+\begin{quote}
+Bērza klucis ievēlās\\
+Mūs' māsiņas spilvenos.\\
+Ej ārā, bērza kluci,\\
+Lai gul viena mūs' māsiņa!\\
+(LD 24910)
+\end{quote}
+
+Rainis dzejoli veidojis saiņu pantiņu struktūrā -
+vienā lapaspusē ievietotas četras četrrindes un viena
+(noslēdzošā) divrinde -- visas četrpēdu trohaja
+pantmērā. Bez citētās četrrindes, kas simbolikā
+vistuvākā tautasdziesmā, nebūtu iespējama vai būtu
+apgrūtināta pārējo Raiņa četrrinžu un noslēdzošās
+divrindes tēlu atšifrēšana. Katrs nākamais dzejolis pārņem
+konstantu daļu ("divi balti") no pirmās četrrindes
+simbolikas, izvēršot to jaunās sakarībās:
+
+\begin{quote}
+Divus baltus kamoliņus\\
+Laime puisim atmetusi -- \\
+Puisis skrēja meklēdams,\\
+Azotē atrazdams.\\
+* *\\
+*\\
+Divi balti mākonīši\\
+Gar mēnesi aizpeldēja --- ---\\
+(III, 68)
+\end{quote}
+
+SImbols, kas veido pēdējo divrindi, būtu nesaprotams un
+neatšifrējams bez iepriekšējiem.
+
+Iemesli dzejnieku darbos lietotajiem vārdiem ar pārnestu
+nozīmi var būt vairāki: 1) ja rakstīsi par "mūžīgajām"
+tēmām tā, kā rakstījuši tavi priekšteči, neviens nelasīs,
+jo cilvēks pēc dabas allaž meklē ko jaunu un uzmanību
+piesaistošu; 2) dzejnieks grib vēstīt par
+prieku, laimi vai skumjām, bet parasti vairās saukt
+savu jūtu objektu vārdā un minēt kādas reālijas, kas
+varētu norādīt uz konkrēto adresātu;
+3) politiski, sabiedriski tabu neļauj runāt "skaidru"
+valodu; 4) "Dažiem jēdzieniem valodā trūkst atbilstošu
+vārdu, bet tomēr var atrast analogu
+metaforu"\footnote{Aristotelis. Poētika. -- R., 1959. -- 91.lpp.}
+{\color{red}
+5) metaforas, salīdzinājumi, personifikācijas,
+paralēlismi u.c. ļauj koncentrētāk pateikt domu, izvairoties
+no plaša un secīga izklāsta, u.c.
+}
+
+Bez nosauktajiem var minēt vēl virkni citu iemeslu,
+kāpēc dzejā tiek lietoti tropi. Un tomēr šķiet, ka
+galvenais iemesls vēsturiski ir bijis pavisam cits.
+Tā, protams, daļēji taisnība, ka valodā vārdu skaits ir
+ierobežots un, lai izteiktu kādu jaunu nojēgumu,
+tam vislabāk noder metafora, arī metonīmija,
+personfikācija u.tml. Bet kāpēc tādā gadījumā
+zinātnes valoda tradicionāli izvairās no metaforiskas
+izteiksmes -- zinātniekiem taču tik bieži jāanalizē lietas
+un parādības, kurām nav nosaukumu?
+Daļēji patiess ir arī apgalvojums, ka tropu lietojums
+dzejā atsvaidzina izteiksmi, palīdz lasītājam negarlaikoties.
+Un tomēr, ja izsekojam dzejas vēsturei, krietna daļa
+epitetu, salīdzinājumu, metaforu, simbolu, alegoriju
+u.c. laika gaitā saglabājas nemainīgi vai tikai daļēji
+mainās --- un tomēr lasītājs lasa...
+
+Galvenais iemesls, kāpēc dzeja tiek veidota pārsvarā
+pārnestas nozīmes (simboliskā) valodā, šķiet, meklējams
+folklorā un plašāk --- senā cilvēka domāšanas
+īpatnībā. Tā visas mītiskās dziesmas ir --- mūsdienu
+terminoloģijā --- metaforiskas un simboliskas.
+Tām raksturīga enigmātiskā jeb mīklu veida
+(t.i. slēptā) izteiksme.
+
+Pirmārt, tāpēc ka tie ir sakrālie teksti, kuru īsto jēgu
+drīkstēja zināt un saprast ne visi, bet tikai iesvaidītie.
+
+Otrkārt, mītisko domāšanu un līdz ar to --- mītisko
+izteiksmes veidu raksturo priekšstats par mikrokosmosa
+un makrokosmosa identiskumu, tāpēc, piemēram,
+cilvēku kāzas nereti tiek tēlotas kā debesu dievību kāzas
+(līgavainis --- Mēness vai Dieva dēls, līgava --- Saules meita)
+vai zvaigznes tiek sauktas par acīm, debesis --- par sudraba
+kalnu ("Simtacīts, Dieva dēls / Ar sudraba kalniņā",
+LD 28 833, 5) u.tml. Šī dažādo līmeņu objektu līdzvērtība
+un savstarpējā atbilsme veido to, ko mēs saucam par
+paralēlismiem un metaforām. Tā mītiskajā
+domāšanā cilvēka asinis bieži tiek pielīdzinātas
+upei (sakrālajiem ūdeņiem), un tāpēc, piemēram, buramvārdos
+tās tiek sauktas par straujupīti:
+
+\begin{quote}
+Līku loku upe tek\\
+No kalniņa lejiņā;\\
+Aiztecēja mīļa Māra, \\
+Saturēja straujupīti.\\
+(LD 34 132)
+\end{quote}
+
+Treškārt, dainās atspoguļojas totēmiskie
+priekšstati, tāpēc nereti meitas sauktas par
+irbēm, vāverēm, liepām, puiši --- par vanagiem,
+vilkiem, ozoliem u.tml. Tad, kad
+totēmiskie priekšstati tiek uztverti vairs tikai
+kā māņi, kad no tautas apziņas sāk izzust to
+funkcionālā jēga, totēma vārds pārvēršas par salīdzinājumu,
+paralēlismu vai tiek uztverts kā metafora:
+
+\begin{quote}
+Kupla liepa ceļu gāja,\\
+Zari vien locījās;\\
+Ozoliņš ceļu grieza\\
+Ar visām bitītēm.\\
+(LTD 172, IV)
+\end{quote}
+
+\begin{quote}
+Es nelauzu liepas zaru,\\
+Pate augu kā liepiņa;\\
+Ozolam, tam nolauzu\\
+Visas zaru pazarītes.\\
+(LD 9779)
+\end{quote}
+
+\begin{quote}
+Kupla liepa jūrmalāi,\\
+Pilna baltu gaigalīšu;\\
+Viena meita māmiņai,\\
+Pilna sēta precinieku.\\
+(LD 14 248)
+\end{quote}
+
+Ceturtkārt, semantēmas, ko šodien parunās, izteicienos
+uztveram metaforiski ("Paņem acis rokā",
+"Ņem acis pirkstos, ka neredzi", "Mest ar acīm"),
+folklorā un folkloristiskajā domāšanā kādreiz
+nozīmēja tiešamību.
+Sal. latviešu pasaku "mešana ar acīm":
+"Nu velns devis citu darbu, lai apkopjoties pa māju,
+ko jau nu redzot, un tad lai steidzoties viņam pakaļ
+viesībās, viņš iešot tūliņ. Bet, ja atnākot viesībās,
+lai tad pametot viņam ar acīm vien, gan viņš tad
+nopratīšot, vai ir
+apkopts viss vai ne.
+Labi, velns aiziet, un Juris nu ņemas ar darbiem..
+izņēma velna bērniem acis un aizgāja viesoties.
+Noiet tur --- velns skatās: Kur Juris?
+Bet Juris paķēra velna bērnu acis un iemeta velnam
+klēpī. Velns traks, tūliņ mājās prom
+un grib Juri vai piestā sagrūst; bet Juris brīnās:
+"Par ko tad, vai pats neteici, lai ar acīm
+metu?""\footnote{Latviešu tautas pasakas par
+velniem. --- Kopenhāgena, 1953. --- 15.-16.lpp.}
+
+Piektkārt, enigmātiskos tekstus (visbiežāk --- mīklas
+vai mīklu dziesmas) senie cilvēki minēja kritiskos brīžos ---
+gadu mijā, veļos kādu aizvadot, kāzās u.c.
+Ticēja, ka mīklas atminot, viņi sekmē kritiskā brīža
+atrisināšanu labvēlīgi. Turpretī tiešā veidā izteikti
+vārdi neprasa radošu piepūli, tos uztverot, tāpēc
+tiešai runai nevar būt maģiskas iedarbes spēka.
+
+Sestkārt, svarīgas lietas, būtnes, ko pielūdza vai/un
+no kurām baidījās, nesauca īstajā vārdā, bet aizstāja
+ar kādu tabu apzīmējumu. Ne velti tautā mēdz teikt:
+"Kā vilku/velnu piesauc, tā vilks/velns klāt."
+Vilku (kas arī ir tabu vārds\footnote{"..vārdam {\em vilks}
+ir tā pati cilme, kas verbam {\em vilkt}. Vilka
+apzīmējums ar šās saknes vārdu ir samērā jauna
+indoeiropiešu parādība. Šis vārds stājies agrākā vilka un
+suņa kopapzīmējuma vietā.. Sākotnēji.. vilks bijis
+segvārds ('plēsējs, laupītājs'). Kad šis vārds bija
+kļuvis par dzīvnieka īsto nosaukumu, tam blakus izveidojās
+jauni segvārdi (latviešu valodā pelēcis,
+mežainis, mežavīrs, tēvainis, vecbrālis u.c.)." ---
+Karulis K. Latviešu etimoloģijas vārdnīca. -- R., 1992. --
+2.sēj. --- 530. lpp.}),
+tāpat kā vairākus citus sakrālus dzīvniekus, rāpuļus,
+tautasdziesmās bieži sauc kādā no segvārdiem. Čūskai vien
+latviešu valodā tādu ir vairāk nekā
+astoņdesmit.\footnote{Sk.: Johansons A. Die lettischen
+Benennungen der Schlange // Donum Balticum. ---
+Stockholm, 1970. ---- S. 222-230.}
+Ja šos tabu apzīmējumus (vismaz to veidu) nezinām,
+daļa tautasdziesmu mums paliek nesaprasta, piemēram:
+
+\begin{quote}
+Dzeniet, gani, kur dzeniet,\\
+Purvā, gani, nedzeniet:\\
+Purvā guļ iebavieši,\\
+Zaļas acis bolīdami.\\
+{\em Tdz 50 522}
+\end{quote}
+
+Vēlākos laikos, kad tabu priekšstati zaudēja savu spēku
+un tos sāka uzskatīt par vecu laiku māņticību, vilka
+apzīmējums -- "pelēcis", lapsas -- "rudaste",
+čūskas -- "iebavietis" u.c. pārtapa par ornamentālu ---
+stilistiski rotājošu epitetu, metaforu, u.tml.
+
+Septītkārt, dzejas simboliskās izteiksmes avots meklējams
+arī t.s. metamorfozēs --- seno cilvēku ticībā,
+ka cilvēki uz laiku vai pavisam spēj pārvērsties dzīvniekos,
+putnos u.c. (piemēram, vilkačos; pārdabisku uzdevumu veikšanai ---
+par ērgli, zivi vai vilku u.c.), nedzīvos priekšmetos,
+lietās (piemēram, pasaka par brāļiem, kurus ragana pārvērš
+par akmeņiem), bet nedzīvi priekšmeti, lietas spēj
+atdzīvoties (no māla vai koka gabala tiek izveidots cilvēks).
+Metamorfozes bija viens no biežākajiem sižetiem
+sengrieķu mītoloģijā (dievību Zeva, Proteja u.c. pārvēršanās
+dažādos dzīvniekos, putnos u.c.; Narciss, kas pārvēršas
+puķē --- narcisē, miniādas, kuras Dionīss pārvērš par
+sikspārņiem, Arahne, kuru Atēna pārvērš par zirnekli, utt.)
+un vēlāk antīkajā literatūrā (sk. Ovidija "Metamorfozes",
+Apuleja "Metamorfozes jeb zelta ēzelis"). Priekšstati
+par iespējamo pārvēršanos sakņojās gan totēmismā, gan ticībā
+dvēseļu ceļošanai un pārtapšanai. Jaunlaiku literatūrā
+metamorfozes iegūst vainu neomītisku traktējumu
+(F.Kafkas "Pārvēršanās"), vai kļūst par metaforām,
+salīdzinājumiem ("Viņš stāvēja kā pārakmeņojies"),
+vai balansē starp metamorfozi un metaforu, kā, piemēram,
+V.Plūdoņa balādē "Tīreļa noslēpums":
+
+\begin{quote}
+..Un dakšām un izkaptīm bruņoti,\\
+Ciema ļaudis drīz salasās tīrelī.\\
+Tu brīnums! Kur ganam trīsdesmit aitu\\
+Pie grāvmales ēda, tur tādu pat skaitu\\
+Redz avju vietā akmeņu,\\
+Citu pie cita sakrautu\\
+Kā kapa kopiņu...\footnote{{\em Plūdonis V.} Raksti. ---
+R., 1974. --- 1. sēj. --- 91. lpp.}
+\end{quote}
+
+Tā, protams, ir tikai neliela daļa no iespējamiem dzejas
+tropu avotiem folklorā. Te svarīgi pasvītrot, ka folklorā
+simboli (un plašāk --- slēptā valoda) bija daudznozīmīgi
+(atkarībā no konteksta), bet arī noturīgi, jo tos uzskatīja
+par dievišķā zīmēm, kuras nedrīkst mainīt, lai nezustu
+tajās ieliktais enerģētiskais spēks.
+
+Kristietiskā kultūra, kas nāca ar pagāniskās kultūras
+simbolisko zīmju noliegumu, neiznīcināja tās
+(vai iznīcināja tikai daļēji), bet vairākumā gadījumu
+pārkodēja. Tā kosmiskajam --- Saules kokam tika
+pārklāta Bībeles Labā un ļaunā atzīšanas, Nemirstības
+koka kontūras, Māra kā viens no Lielās pirmmātes
+iemiesojumiem latviešu folklorā papildus ieguva
+svētās Marijas vaibstus u.tml.
+
+Kristietiskā mītoloģija (īpaši Jaunā derība) arī krietni
+paplašināja Eiropas tautu kultūras simbolisko kodu.
+Līdzības par pazudušo dēlu, par putniem gaisā un puķēm
+laukā, par sējēju u.c. ar laiku iegājušas universālo
+simbolu kategorijā un tiešā veidā vai pārfrazētas turpina
+savu eksistenci.
+
+Divdesmitā gadsimta modernā un postmodernā kultūra radīja
+krasu lūzumu tradicionālo zīmju --- simbolu, metaforu
+u.c. sistēmā, pirmkārt, atmetot tās, otrkārt, padarot
+bezjēdzīgas (ievietojot starp citām bezjēdzīgām zīmēm),
+treškārt, apzināti pārvēršot par seklām, paņemot no šīm
+zīmēm tikai to virspusi, piemēram:
+
+\begin{quote}
+Es paskatos pulkstenī: vienpadsmit jau.\\
+Mēs divi vien esam. Šeit citu nav.
+
+Es nošauju greizi, čirkst nazis pa šķīvi.\\
+Mēs tiesājam olas un spriežam par dzīvi.
+
+Tu juriste jauna, es vīrietis tavs,\\
+Kas domā, ko pārnācis sacīs tavs tēvs.
+
+Tev iedrebas pleci kā Temīdas svari:\\
+--- Ne es ko drīkstu, ne tu ko vari. ---
+
+Es nolieku nazi uz šķīvja malas\\
+Un jūtos kā būda uz pamestas salas.
+
+Kā notiesātais tad ceļos un eju.\\
+Tu nomazgā traukus, es pāršķirstu dzeju.
+
+Tad iekrītam gultā un jūtamies brīvi.\\
+Tu piemini olas... Ne čirksta par dzīvi.\footnote{{\em Zirnis
+E.} Rudu lapsu kāsis. --- R.,1985. --- 48.lpp.}
+\end{quote}
+
+Te desakralizēts gan skaitlis ("vienpadsmit jau"),
+gan "es --- tu" ("Tu juriste jauna, es vīrietis tavs"),
+gan tādi Eiropas kultūrā ietilpīgi simboli kā
+"Temīdas svari", "pamesta sala" u.c.
+Sakrālais modelis aizstāts ar profāno, sakrālās
+zīmes ar profānajām ("Tu nomazgā traukus, es
+pāršķirstu dzeju", "Tad iekrītam gultā un jūtamies brīvi").
+Salīdzinājums (pleci kā Temīdas svari; kā būda uz
+pamestas salas; kā notiesātais), kas tradicionāli
+dzejā lietots, lai paplašinātu vai padziļinātu
+priekšstatu par salīdzināmo, te --- pretēji --- to
+paseklina. Var teikt, ka šeit un līdzīgos postmodernistiskā
+tipa tekstos tradicionālo kultūrzīmju (simbolu,
+salīdzinājumu, epitetu u.tml.) desemantizācija
+novesta gandrīz līdz galējai robežai, kad ne teksta rakstīšanai,
+ne lasīšanai nav īpašas jēgas. Simboliskā izteiksme
+vienmēr prasījusi no lasītāja līdzradīšanu --- atšifrējot
+zīmes. Kad līdzradīšanas nav, zūd interese par pašu tekstu.
+Protams, visvieglāk būtu pārmest postmodernistiem
+apzinātu vai neapzinātu dzejas pamata --- tēlainās,
+simboliskās valodas iznīcināšanu. Taču, redzams,
+20.gs. tradicionālais --- tēlainās izteiksmes un līdz
+ar to arī poētiskās domāšanas veids bija lielā mērā izsmēlis
+sevi. Bija jānāk sastindzināto mītisko shēmu --- simbolu
+(Dievs, Laima, Māra, Lāčplēsis, Koknesis, Burtnieks,
+Melnais bruņinieks u.tml.) "pazemināšanai"
+(kā, piemēram, J.Turbada darbā "Ķēves dēls Kurbads"),
+sastindzināto simetrisko ritmu un metru
+(jambu, trohaju) asimetrizācijai verlibriskās
+struktūrās, lai tad vai nu pārradītu tās,
+vai nogremdētu aizmirstības dzīlēs uz visiem laikiem.
+Postmodernistiskās poētiskās domāšanas pašreizējā
+ielenkumā gandrīz vai šķiet, ka simboliem ---
+tradicionālajām zīmēm (līdz ar visu tradicionālo
+tropu virteni) vieglāk būs nogrimt pavisam
+(dainas, pasakas tādā gadījumā veidos pamestu un
+nevienam nesaprotamu, nevajadzīgu lūžņu salu
+21.gs. cilvēkam) nekā atdzimt no jauna.
+Un ttomēr, vērojot to pašu postmodernistu dzeju,
+nevar nepamanīt, ka arī viņi (apzināti vai neapzināti)
+nespēj iztikt ja arī ne bez tradicionālajiem simboliem,
+tad bez tā, ko šveiciešu psihologs Karls Gustavs Jungs
+nosaucis par arhetipiem jeb dominantēm --- universālām
+konstantām psihiskajām shēmām, kas kopš
+neatminamiem laikiem zemapzinīgi tiek pārradītas un
+aktualizētas rituālos, mītos, ticējumkos, sapņos,
+mākslā.\footnote{Par to sīkāk sk.: Юнг К.Г.
+Архетипы коллективного бессознательного //
+Юнг К.Г. Психология бессознательного. --- М.,
+1994. --- С. 135-165.}
+Arhetipi, kas rodas no cilvēka zemapziņā snaudošiem
+tēliem, pēc K.G.Junga uzskata, ir universālie
+simboli, kuriem piemīt vislielākā patstāvība.
+Mākslas darbu iedarbība slēpjas tieši šī arhetipiskā
+dziļslāņa aktualizācijā.
+
+Šos pirmtēlus --- arhetipus, kas saistīti ar ūdens,
+uguns, debesu, zemes, kosmiskā koka, dzīvības, nāves
+u.c. priekšstatu simbolizāciju, --- nav izdevies
+iznīdēt arī postmodernistiem, tieši otrādi,
+tropus desemantizējot vai pat iespējami "izmetot"
+no dzejas, viņi aktualizē pirmtēlu līmeni.
+Un pirmtēli --- šīs vārdos grūti izsakāmās,
+definējamās zīmes --- ļauj pārmest saprašanās tiltu
+starp rakstītāju un lasītāju. Vēl vairāk ---
+impresionistiskā, vēlāk sirreālistiskā, vēl vēlāk ---
+postmodernistiskā tipa dzeja tieši akcentē šo
+kolektīvās zemapziņas --- arhetipisko slāni:
+
+\begin{quote}
+Šai dziļajā rudens aizmirstībā,\\
+kur zirneklis dievmātes dziju auž,\\
+es redzu --- no zvaigžņainā Vēža spīles\\
+izaug mūsu Tikšanās kok.s
+
+Tā zari liecas pār Nāves jūru\\
+(tik daudz ziedos tavs profils zied),\\
+tā zari liecas pār tuksnešu smiltīm\\
+(tu varbūt vēl šaipus anemonēm).
+
+Es tagad jau esmu viņpus Ēnas\\
+(ai zilgme, kāds caurspīdīgs satraukums!).\\
+Kaut kur tālu, tālu šūpoļu matos\\
+atkal iemmirdzas maldugunis...\footnote{{\em Helds J.
+} Naktsputna testaments. --- R., 1977. --- 79. lpp.}
+\end{quote}
+
+Šajā dzejolī rudens, zirneklis, kas dievmātes dziju
+auž, zvaigznes, Tikšanās koka zari, Nāves jūra,
+tuksneša smiltis, ziedi, ēna, šūpoļu mati,
+maldugunis ir kādu senu pirmtēlu varianti.
+Apziņas līmenī traktēti, tie veido šķietami
+neloģisku virknējumu. Zemapziņas līmenī
+(tajā, kas katram no mums aktualizējas
+naktī --- sapņos) katrs no šiem tēliem uzjundī
+vai potenciāli spējīgs uzjundīt sezonu
+(rudens), aušanas (zirneklis, Dievmāte Marija,
+likteņdievības kā kosmosa audējas), kosmiskā
+koka, dzīvības un nāves ūdeņu u.c.
+senās kolektīvās atmiņas zīmes.
+"Vēsturei nav izdevies mainīt senā simbolisma
+struktūru pamatos. Vēsture pastāvīgi pievieno
+jaunas nozīmes, neizjaucot simbola struktūru
+kā tādu."\footnote{{\em Eliade M.} The Sacred
+and the Profane: The Nature of Religion. ---
+N.Y.; Evanston, 1959. --- P. 137.}
+
+{\color{red}
+Rezumējot šīs piezīmes par enigmātisko izteiksmes
+veidu (tropiem) dzejā, var secināt:
+\begin{enumerate}[1)]
+\item senajam cilvēkam tas, ko mēs saucam par
+tropiem, apzīmēja dažāda līmeņa lietu, būtņu,
+dievību identumu (A vienāds ar B; puisis ir lācis);
+\item jauno laiku cilvēkam, kuram pakāpeniski
+mītisko domāšanu aizstāja vēsturiskā, tropi dzejā ir
+nosacītas zīmes, kas norāda uz tuvāku vai tālāku
+sakaru starp A un B (puisis kā lācis, resp., stiprs);
+\item 20.gs., īpaši postmodernistiskā laikmeta cilvēkam
+tropi kā tādi lielā mērā kļuvuši par nolietotām zīmēm.
+To vietā dzejā tiek aktualizēti arhetipiski
+modeļi --- pirmtēli, kuriem jānodrošina saikne
+(saprašanās mēģinājuma zīme) starp lasītāju un
+rakstītāju. Taču bieži, ja ne visbiežāk šiem
+pirmtēliem tiek "atņemts" to sensenais sakrālais
+pildījums, tie aktualizē tikai dzīvības --- nāves,
+mīlestības, agresijas u.c. zīmju profāno --- virsējo
+slāni. Lai gan nevar nepamanīt, ka
+līdzās šai simboliskās dzejas valodas elementu
+demītoloģizācijas tiecībai pastāv arī
+to pārradīšana, cilvēces izstrādāto tradicionālo
+simbolisko zīmju aktualizācija (I.Ziedoņa, L.Brieža,
+K.Skujenieka u.c. dzeja).
+\end{enumerate}
+}
+
+Līdzīgu evolūciju izgājušas arī t.s. figūras (īpaši
+izteicieni, kas atšķiras no parastā vārdu kārtojuma; arī
+--- konstrukcijas, ko izlieto valodas izteiksmības
+pastiprināšanai) dzejā. Dažādie atkārtojumu veidi
+(anafora, divkāršojums, epanortoze, epifora,
+hiasms) tautas dzejā bija cieši saistīti
+ar ticību maģiskai iedarbībai. Atkārtojot pastiprina
+teiktā iespaidu. To labi var redzēt buramvārdos,
+kur atkārtojumam ir ļoti svarīga loma, piemēram, dūrēja
+vārdi: "Dūrējs dur; lai trīs pērkoņi to sasper. Dūrējs dur
+durdams, lai deviņi pērkoņi to sasper. Dūrējs
+dur padurdams; lai trejdeviņi pērkoņi to
+sasper."\footnote{{\em Straubergs K.} Latviešu
+buramie vārdi. --- R., 1939. --- 1.sēj. ---
+385.lpp.} Otrs dažādo atkārtojuma veidu
+(pakares, divkāršojuma u.c.) iemesls slēpjas
+valodas senajā struktūrā, proti,
+"aizstājējvārdu" (vietniekvārdu) samērā
+vēlā ienākšanā valodā vai arī vārdu, kas apzīmētu
+kādas darbības intensitātes pakāpi ("ļoti"), kā
+arī palīgvārdu trūkumā.
+Tā piemēram, mītiskajās dziesmās personu vai
+norādāmie vietniekvārdi ("viņš", "tas") tikpat kā
+neparādās, tā vietā tiek divreiz atkārtots viens
+un tas pats substantīvs (veidojot pakari --- vārds
+rindas beigās sāk nākamo rindu;
+epanortozi --- viena vai vairāku vārdu vai veselas
+rindas atkārtojums):
+
+\begin{quote}
+Ej, māsiņa, klausīties,\\
+Kādu vēsti zīle nes!\\
+--- Zīle nesa tādu vēsti,\\
+Būs brāļami karā iet.\\
+{\em LTdz 22 180}
+\end{quote}
+
+\begin{quote}
+Ļaudis ēda, ļaudis dzēra,\\
+Dievs aiz loga klausījās,\\
+Dievs aiz loga klausījās,\\
+Vai Dieviņu pieminēja.\\
+{\em LTdz 13 646}
+\end{quote}
+
+Vārda "ļoti" (stipri, daudz, maz u.tml.)
+vietā tautasdziesmās parasti tiek divreiz
+atkārtots viens un tas pats vārds, piemēram:
+"Aši aši zīle brēca / Vārtu staba galiņā"
+(LTdz 22 185).
+
+Pakāpeniski, zūdot uzskatam par dzejas
+valodu kā sakrālu valodu, ar kuras palīdzību
+iespējams ietekmēt dažādas dzīves
+norises, figūras, tāpat kā tropi pārvēršas nosacītos
+mākslinieciskās izteiksmes līdzekļos, kuru uzdevums ir
+gan "savādot" dzejas valodu, uzsverot tās
+atšķirību no sarunvalodas un prozeas valodas, gan
+zemapziņā saglabāt atkārtojumus u.c., lai
+panāktu lielāku iedarbību uz lasītāju. Romantiskā
+mākslinieciskā tipa dzejā figūru, tāpat kā tropu nozīme
+ir lielāka nekā klasistiskajā vai reālistiskajā dzejā.
+Pirmais tips orientējas uz lasītāja uztveri
+"caur jūtām", otrais un trešais ---
+"caur prātu", tāpēc pēdējiem dažādu figūru
+lietojums šķietas esam traucēklis dzejoļa jēgas precīzai atklāsmei.
+Un otrādi --- šķietamais apkārtceļš, kas bagātināts
+ar dažādiem tropiem, figūrām, dzejnieka --- romantiķa
+uztverē palīdz lasītājam dziļāk izprast
+tekstā slēpto jēgu.
+
+Daiļrades gaitā mainās attieksme pret dažādiem
+tropu un figūru veidiem arī Raiņa dzejā. Šīs
+izmaiņas pamatā saistītas ar literārā virziena
+maiņu, lai gan ne tik konsekventi kā, piemēram,
+izmaiņas metrikā.
+
+Raiņa jaunromantiskajā\footnote{Par virzieniem
+Raiņa dzejā sīkāk sk. šīs grāmatas nodaļā
+Mākslinieciskās sistēmas attīstība".} dzejā,
+ko visspilgtāk pārstāv krājums "Tālas noskaņas
+zilā vakarā", un daļēji arī agrīnā simbolistiskā
+posma krājumos ("Vētras sēja", "Klusā grāmata")
+dominē {\bf alegorija} --- tropa veids, kura pamatā
+ir līdzība. No divām lietām (A un B) alegorija
+min tikai vienu (B), bet minētā liek lasītājam
+apjaust arī vārdos neminēto (A), jo
+starp abām pastāv kāda pastāvīga
+līdzība\footnote{{\em Dziļleja K.} Poētika. ---
+[B.v.]: P. Mantnieka apgāds, 1949, 1949. ---
+46.-47.lpp.} Alegorija ir radniecīga simbolam,
+taču atšķirībā no tā alegorija norāda tikai uz vienu
+no potenciālajām nozīmēm. {\bf Simbols}
+savā būtībā un arī dzejā parasti ir daudznozīmīgs,
+alegorija turpretī viegli iekļaujas binārajā opozīcijā
+"labais --- ļaunais"\footnote{Литературный
+энциклопедический словарь. --- М., 1987. ---
+С.20.}  Alegorija kā tropu veids tradicionāli
+saistīta ar tādiem žanriem kā fabula, satīra,
+groteska, parabola un jo īpaši --- līdzība
+(uz alegorijām balstās, piemēram, līdzības Jaunajā derībā).
+Alegorija bija īpaši iecienīta viduslaiku, baroka,
+kā arī klasicisma posma literatūrā.
+Romantiskā poētiskā tipa dzeja parasti šo tropu
+veidu tikpat kā nelieto, vērtējot to (īpaši ar atskatu
+uz klasicisma pārracionalizētajām alegorijām) kā pārlieku
+tiešu, vienpusīgu mākslinieciskās izteiksmes līdzekli.
+Raiņa jaunromantiskā posma dzeja liekas apgāžam
+šo vispārējo romantiskā un jaunraomantiskā virziena
+tendenci. Taču tam var atrast izskaidrojumu.
+"Tālas noskaņas zilā vakarā", kā arī simbolistiskā
+posma krājumi "Vētras sēja" un "Klusā grāmata" veidoti
+kā pretestības dzeja pret indivīda, tautas apspiestību
+20.gs. sākuma patvaldnieciskajā Krievijā. Tieša valoda
+bija neiespējama cenzūras spaidu dēļ, pārlieku
+"daudznozīmīga" arī ne, jo Rainis savu
+dzeju bija iecerējis pēc iespējas ātrākai un spēcīgākai
+iedarbībai uz lasītāju. Šai iecerei vislabāk atbilda
+alegorijas, kuru nozīme gan bija no cenzūras formāli slēpta, bet
+lasītājam īstenībā viegli caurredzama. Ne velti pēc
+grāmatas "Tālas nozskaņas zilā vakarā" iznākšanas
+konservatīvajās aprindās sacēlās protesta vētra,\footnote{Par
+to sīkāk sk.: {\em Rainis J.} Kopoti raksti. --- R., 1977. ---
+1.sēj. --- 458.-459.lpp.} kuras rezultātā
+Krievijas Galvenā preses pārvalde izdeva rīkojumu
+aizliegt atkārtotus dzejoļu krājuma izdevumus.
+
+Lielai daļai alegoriju pamatā ir Jaunās derības līdzības.
+Šī formālā dzejoļu piesaiste Jaunās derības līdzībām
+lielā mērā palīdzēja dzejoļus, neskatoties uz tajos
+ielikto dumpiniecisko saturu, krājumā saglabāt. Tā grāmatas
+cenzors M.Remiķis, rakstot taisnošanās vēstuli
+Galvenajai preses pārvaldei, uzsver, ka tā ir tikai
+dabas un reliģiskā dzeja.\footnote{Turpat. --- 459.lpp.}
+
+Reliģisko virskārtu "Tālās noskaņās zilā vakarā",
+"Vētras sējā", kā arī "Klusajā grāmatā" Rainim
+palīdz saglabāt Jaunās derības līdzības par pazudušo dēlu
+(dzejolis "Pazudušais dēls" --- sal. Lūkas evaņģēliju 15, 3-32),
+par lauka lilijām, putniem un zāli ("Lauka lilijas"
+--- sal. Lūkas evaņģēliju 12, 22.32), par sējēju
+("Sirdsasinis", "Ko sējējs bēdā", "Dzīves sējējs" ---
+sal. Mateja vaņģēliju 13, 1-8) par laicīgu mantu
+krāšanas veltīgumu ("Vecas gudrības" --- sal.
+Mateja evaņģēliju 6, 19--20), par namu, kas celts
+uz klints ("Akmens nams" --- sal. Mateja
+evaņģēliju 7, 24-26) u.c. Tiesa, viena daļa šo
+Raiņa dzejoļu arī dziļslānī nav pretrunā ar Jaunās
+derības līdzību semantisko ievirzi. Atšķirība var būt tikai
+adresātā, tā, piemēram, Jaunajā derībā Jēzus Kristus ar
+līdzību par namu, kas būvēts uz klints, vēršas pie saviem mācekļiem
+un visiem, kas par tādiem vēlētos kļūt,
+turpretī Rainis dzejolī "Akmens nams" vēršas pie savas
+tautas un tās brīvības izkarošanas lietas:
+
+\begin{quote}
+Uz akmens celts mūsu nams,\\
+Tas akmens ir krams,\\
+No tērauda lieti ir stabi, ---\\
+Mūsu lieta stāv labi.\\
+{\em (I, 405)}
+\end{quote}
+
+Sal. Mateja evaņģēlijā: "(7,24) Tāpēc ikviens, kas šos
+manus vārdus dzird un dara, līdzināms gudram vīram, kas
+savu namu cēlis uz klints. (25) Kad stiprs lietus lija
+un straumes plūda un vēji pūta un brāzās šim namam
+virsū, nams tomēr nesabruka, jo tas bija celts uz
+klints."\footnote{Šeit un turpmāk Jaunās derības teksts
+citēts pēc: Jaunā derība. --- [B.v.]: Latvijas ev. lut.
+baznīcas konsistorija, 1988.}
+
+Mainot adresātu, piemērojot Bībeles alegoriju konkrētam
+laikam un konkrētai vietai, Rainim šķietami reliģiskā ietvarā izdodas
+ielikt savu saturu.
+
+Tomēr lielākā daļa Bībeles alegoriju Raiņa pirmo krājumu
+dzejā tiek pārfrazēta. Dažos dzejoļos tas notiek
+nemanāmi, dažos pretējā jēga tiek īpaši akcentēta.
+Tā dzejolis "Lauka lilijas" sākumā pilnīgi seko
+Jaunās derības alegorikai:
+
+\begin{quote}
+Jūs nezūdaties savas dzīvības,\\
+Ko ēdīsat, ko dzersat rītu,\\
+Nedz arī savas miesas apsegas,\\
+Iekš kā to mīlīgi un silti tītu.
+
+Jūs esat it kā putni gaisos brīvi:\\
+Nedz viņi sēj, nedz viņi pļauj,\\
+Nedz klētīs krāj, nedz kaudzēs krauj, ---\\
+Un vai tiem maizes trūkst, ko elpēt dzīvi?
+
+Jūs baro jūsu tēvs pārpilnībā\\
+Un zemie zemes pīšļi tīrumā,\\
+Ko jūsu kājas min.
+
+Jūs esat skaistās lauka lilijas. ---\\
+Kā viņas zied un sārtojas!\\
+Tas krāšņais, priecinošais skats! --- ---\\
+Nedz viņas strādā, nedz ar vērpj.
+
+Un es jums saku: lielais Zālamans pats,\\
+Kaut sevi visgreznākās drēbēs tērpj,\\
+Ar visām pasauls lepnībām\\
+Nau līdzīgs vienai vienīgai no tām.\footnote{Sal.
+Lūkas evaņģēlijā: "(12,22) Un viņš sacīja saviem
+mācekļiem: "Tāpēc es jums saku: nezūdaities savas
+dzīvības pēc, ko ēdīsit, ne arī savas miesas pēc,
+ar ko ģērbsities, (23) jo dzīvība ir labāka nekā
+barība un miesa labāka nekā apģērbs. (24) Ņemiet
+vērā kraukļus, kas nedz sēj nedz pļauj, kam nav ne klēts, ne
+šķūņa, bet Dievs viņus uztur.. (27) Ņemiet vērā
+lilijas, kas ne vērpj, ne auž. Bet es jums saku: pat
+Zālamans visā savā greznībā nav bijis tā apģērbts
+kā viena no tām.""}
+\end{quote}
+
+Turpretī Raiņa dzejoļa nobeigums ir pretrunā ar
+Jēzus Kristus izteiktās līdzības daļu par zāli:\footnote{Sal.
+turpat: "(12, 28) Bet, ja jau zāli laukā, kas šodien
+aug bet rīt tiek krāsnī mesta, Dievs tik skaisti
+apģērbj, cik vairāk jūs, jūs mazticīgie! (29) Tāpēc
+neraizējieties arī jūs par to, ko ēdīsit un ko dzersit, un
+neuztraucieties, (30) jo visu to meklē pasaules tautas.
+Jūsu Tēvs jau zina, ka jums viss tas vajadzīgs.
+(31) Dzenieties vairāk pēc Dieva valstības, tad jums arī
+šīs lietas tiks piemestas."}
+
+
+\begin{quote}
+Tik --- lepnā zāle, --- to tie pīšļi zin, ---\\
+Šo dienu stāv un rīt kļūs aprīta\\
+No zemes pīšļiem un no tīruma,\\
+Ko tā, iz viņa spēku sūkdama,\\
+Ar kājām min.\\
+{\em (I, 54)}
+\end{quote}
+
+
+Šajā dzejoļa noslēguma daļā alegoriju nomaina
+simbols (ne tradicionālais, bet dzejnieka paša
+--- individuālais, tiesa arī viegli "caurredzamais"),
+kurā ielikta Bībeles tekstā neparedzēta slēptā nozīme.
+"Lepnā zāle" simbolizē varas nesējus,
+augstākās, apspiedējšķiras, "pīšļi", "tīrums" ---
+zemes pamatu --- tos, kas varas hierarhiskajās kāpēs ir pašā
+apakšā, --- tautu. Lai arī zāle sūc zemes auglīgos
+spēkus, "ar kājām min", drīz to pašu aprij tīrums
+un pīšļi.
+
+Tradicionālās, no Jaunās derības līdzības pārņemtās
+alegorijas akcentu neuzsvērta, bet būtiska pārbīde
+pārvērš Raiņa dzejoļa nobeiguma daļas tēlus no
+viennozīmīgām alegorijām ja ne gluži daudznozīmīgos,
+tad neierastas nozīmes, līdz ar to grūtāk atšifrējamos
+simbolos (zāle, tīrums, pīšļi).
+
+Turpretī, piemēram, Raiņa dzejolī "Pazudušais dēls" Jaunās
+derības līdzības par pazudušo dēlu alegoriju nozīme kardināli
+pārfrāzēta. Lūkas evaņģēlijā Jēzus Kristus farizejiem
+un rakstu mācekļiem stāsta līdzību par jaunāko
+dēlu, kurš no tēva saņēmis sev pienākošos mantas daļu,
+aiziet pasaulē un to notriec. Atjēdzies viņš nāk mājās,
+grēkus nožēlodams un tēvam piedošanu izlūgdamies:
+"(15,21) Bet dēls tam sacīja: Tēvs, es esmu
+grēkojis pret debesīm un pret tevi, es neesmu vairs cienīgs,
+ka mani sauc par tavu dēlu." Raiņa dzejolī
+"Pazudušais dēls" alegorijas "skrandās ģērbts",
+"basām kājām", "kuslām miesām" norāda uz "pazudušā dēla"
+sociālo piederību (zemais, apspiestais) un uz
+atriebes, dominēt, valdīt gribu:
+
+\begin{quote}
+Nē, nenāk viņš, lai jūgā plecus liektu, ---\\
+Viņš nāk kā tiesātājs, lai jūs iz tempļa triektu.\\
+{\em (I, 30)}
+\end{quote}
+
+Otrs nozīmīgs Raiņa pirmo dzejoļu grāmatu alegoriju
+avots ir latviešu folklora. Sociālo tematiku
+dzejoļos "Senatne", "Karaļmeita", "Gaismas pils",
+"Čūska" u.c. palīdz ietonēt latviešu pasaku, teiku,
+tautasdziesmu tēli, arī sakāmvārdi. Tā dzejolī "Caura muca"
+alegorijas par cauru mucu un retu sietu priekšmetisko
+līmeni veido latviešu sakāmvārdi: "Nenes ūdeni sietā";
+"Sietā ūdeni neiesmelsi"; "Caura maisa nepiebērsi un ar sietu
+ūdeņa nepienesīsi", "Kā caurā maisā" u.c. Virknē
+gadījumu pat grūti precīzi definēt, vai šie pārnestās nozīmes
+vārdi ir alegorijas vai simboli (tādā gadījumā ---
+semantiski viennozīmīgi, kas simboliem parasti nav
+raksturīgs), piemēram:
+
+\begin{quote}
+Tanī niknā dienāa\\
+Asins šļācot šķīda:\\
+Grima zemē pils un karaļmeita...
+
+Daiļā karaļmeita\\
+Sēd tur dziļā pilī,\\
+Sēd un vērpj jau seši simti gadu.\\
+\mbox{}[..]
+
+Melnais suns pa laikam\\
+Norūc, paceļ galvu,\\
+Tālu augšā juzdams asins smaku...
+
+Viņā niknā dienā,\\
+Asins šaltēm šļācot,\\
+Celsies augšā pils un karaļmeita..\\
+{\em (Karaļmeita", I, 52)}
+\end{quote}
+
+No vienas puses, "pils" "karaļmeita" --- brīvības,
+"melnais suns" --- brīvības atņēmēju simbols,
+no otras puses, kā šie tā visi pārējie pārnestās nozīmes vārdi
+dzejolī ir alegorijas, kurām tieši raksturīga viennozīmība.
+
+Stingrāks un noteiktāks alegorijas un simbola nodalījums
+ienāk ar dzejoļu krājumu "Klusā grāmata".
+Tā dzejolī "Veļu laiva" vairs nevar runāt par
+alegorijām. Kā "velu upe/ veļu Daugava", tā
+"veļu airi", "veļu laiva", "veļu rokas" ir
+daudznozīmīgi simboli, kur 1905. g. revolūcijas sakāves
+plāns ir tikai viens no iespējamiem. Katrs no šiem
+simboliem ietver kā mītisko (veļu valsts, veļu
+ūdeņi), tā sociālo un vispārceilvēcisko plānu.
+Simboli šai laikā Raiņa dzejā sāk iegūt dziļumu,
+alegorijas ar savu nozīmes vieniespējamību
+noiet izteiksmes līdzekļu perifērijā un, sākot ar krājumu
+"Gals un sākums", izzūd pavisam.
+
+{\color{red}
+Atgriežoties pie tropiem pirmajos --- jaunromantiskā
+un simbolistiskā posma --- Raiņa dzejoļu krājumos,
+jāmin, ka līdzās alegorijām nozīmīga vieta ierādīta
+arī simboliem un personifikācijām. }
+Simboli balstīti romantismam raksturīgajos binārajos
+pretstatos (brīvība --- nebrīvība, tagadne ---
+pagātne, nākotne u.tml.). Daļa simbolu
+(īpaši krājumos "Vētras sēja" un "Klusā grāmata"),
+lai arī dzejnieka orientēta uz konkrētu sabiedrisko
+situāciju, ar laiku ieguvusi vispārinātu zīmju raksturu
+(pateicoties tradicionālo simbolu individualizācijai).
+Tā garajā dzejolī "Pavasaras vētra" simboliskā tēlu rinda,
+kurā ietilpst "putenis", "debesjūra", "viļņi", "kaivas",
+"vārnu bari", "ledus", "kalni", "vējš" u.tml.,
+šodien vairs nav traktējama tikai kā aizejošās vecās
+un atnākošās jaunās varas konkrēto laiku brīvības un
+nebrīvības izteicēja. Šie simboli ietver kā kādreiz tajos ieliktās
+konkrētā laika situācijas, tā arī jebkura laika pasaules
+pārradīšanas, atjaunošanas zīmes:
+
+\begin{quote}
+Gar visu vakarpusi putens ceļas,\\
+Pār kalniem atnāk ledus lauzējs vējš,\\
+Kā vilnis debesjūrā zemjup veļas,\\
+Brūk lejā krākdams, neturami spējš.\\
+{\em (I, 182)}
+\end{quote}
+
+{\color{red}
+{\bf Personifikācija} parasti tēlo priekšmetu vai abstraktu
+jēdzienu (A) kā dzīvu personu (P), piedēvējot
+tam dzīva organisma īpašības (A=P).\footnote{{\em Dziļleja K.}
+Poētika. --- 47.lpp.} Šis pārnestās nozīmes
+izteiksmes līdzeklis ir iemīļots visos dzejnieka krājumos.
+Tomēr starp personifikāciju daiļrades sākuma un beigu
+posmā ir jūtama atšķirība. "Tālās noskaņās zilā vakarā",
+"Vētras sējā" un "Klusajā grāmatā" A=P nenozīmē, ka
+Rainis, līdzīgi kā tas ir folkloras tekstos un mītiskajā
+domāšanā, uzskatītu dzīvu un nedzīvu būtni par identām.
+Rainim personifikācija šeit veic galvenokārt to pašu funkciju,
+ko alegorija un simbols, --- palīdz aizsardzībai pret
+cenzūru. Piedēvējot saulei, vējam, vētrai u.c.
+cilvēku īpašības, darbības veidu kā nevainīgu poētisku
+rotājumu (tas cenzoram ļauj šos tekstus pieskaitīt pie
+dabas lirikas), Rainis īstenībā raksta sociālo noskaņu dzeju,
+kur personifikācija ir tikai tehnisks līdzeklis, kā
+apslēpt īsto sakāmo:
+
+\begin{quote}
+Un vējus es dzirdēju\\
+Ņirdzīgi smejam..\\
+{\em (I, 19)}
+\end{quote}
+
+\begin{quote}
+Tad augšā kāps pilskalns..\\
+{\em (I, 51)}
+\end{quote}
+
+\begin{quote}
+Bet mēmā zeme\\
+Tad muti vērs\\
+Un aprīs jūs,\\
+Un kūpēs sērs.\\
+{\em (I, 152)}
+\end{quote}
+
+\begin{quote}
+Tālē tumsa glūna ar melnām acīm.\\
+{\em (I, 341)}
+\end{quote}
+}
+
+{\bf Salīdzinājums} un {\em epitets}, lai arī
+pirmajos krājumos sastopams, tomēr nepieder pie
+svarīgākajiem tropu rindā. Jāpiezīmē arī, ka
+jaunromantiskā un agrīni simboliskā posma Raiņa
+dzejas salīdzinājumi ir monosemantiski. Saules stars
+"kā dzenātas stirnas bēg" (I, 123), dvēsele mirdz
+balta "kā kalnu sniegi" (I, 155), varoņa vaigs
+ir "ciets kā tērauds" (I, 324), savu dvēseli viņš nes
+"kā rīta sauli sārtos mākoņos" (1, 47), pazudušais
+dēls nāk mājās "kā tiesātājs" (I, 30) u.c.
+Līdzīgi --- viennozīmību pasvītrojoši --- ir arī
+epiteti: "Krūtīs tev gaiša / Un degoša sirds" (I, 126);
+"Nopietnas ūsas, / Prātīgas lūpas, / Deguns miermīlīgs /
+Pamatīgs vēders!" ("Filistris", I, 42).
+
+{\bf Metafora} --- Sava veida saīsināts salīdzinājums,
+kad viena priekšmeta, lietas īpašības piedēvē kādam
+citam priekšmetam, lietai vai būtnei. Taču atšķirībā
+no salīdzinājuma, kas norāda uz līdzīgumu (īstu
+vai tikai iedomātu) starp A un B, metafora parasti
+norāda uz kādu konstantu pazīmi, kas vieno A ar B.
+Pirmajos Raiņa dzejoļu krājumos metafora lietota
+ļoti reti un tai nav īpašas nozīmes tropu sistēmā.
+
+Metafora tiek aktualizēta Raiņa filozofiskā un jo īpaši
+impresionistiskā posma dzejā ("Gals un sākums",
+"Addio bella!", "Sudrabota gaisma", "Mēness meitiņa").
+Tā norāda uz būtisku sakaru starp kādām divām
+parādībām (A un B), ar elementa B palīdzību padziļinot
+priekšstatu par elementu A: "Vējš smiltis-ļaudis putina" (II, 279);
+"Klūst tauta --- avis, kurām aizbēg gani" (III, 125);
+"Skrej putnis, paliek zeme --- kviešu statnis"
+(III, 136). Nereti Rainis lieto A un B elementus
+apgrieztā kārtībā (t.i., nevis "..acis tavas ---
+zaļas zvaigznes", bet otrādi: "..zaļas zvaigznes acis tavas",
+III, 392).
+
+{\bf Paralēlisms}, kas ir pastiprināts salīdzinājums, minot
+līdztekus divus priekšmetus un to īpašības
+(A un B)\footnote{{\em Dziļleja K.} Poētika. --- 46.lpp.},
+pirmajos Raiņa dzejoļu krājumos tikpat kā nav sastopams.
+Lai arī pēdējā --- impresionistiskā posma ("Addio bella!",
+"Mēness meitiņa") dzejā paralēlisms nepieder pie biežāk
+lietotajiem tropu veidiem, tomēr tam ir pietiekoši svarīga vieta.
+Līdzīgi tautasdziesmu paralēlismiem, tas Raiņa dzejas
+tekstos sasaista, satuvina divu dažādu plānu lietas, parādības
+vai arī, piemēram, augu un cilvēku valsti:
+
+\begin{quote}
+Deviņi balti narcisi,\\
+Desmitā sarkana roze ---\\
+Deviņi slaiki brālīši,\\
+Desmitā dailiņa māsiņa,\\
+Desmitā māsiņa roze!\\
+{\em (III, 38)}
+\end{quote}
+
+\begin{quote}
+Zaļas bija vasar' lapas,\\
+Rudens rudas padarīja, ---\\
+Balta bija dzīve mana,\\
+Bēdas melnu padarīja..\\
+{\em (III, 430)}
+\end{quote}
+
+Otrajā piemērā krāsu pāri "zaļš --- ruds" un
+"balts --- melns" veido semantisko paralēlismu,
+kura pamatā binārais pretstats "dzīvība --- nāve,
+prieks --- skumjas".
+
+{\color{red}
+Ļoti nozīmigs tropu veids Raiņa vēlīnajā dzejā ir
+personifikācija. Līdzīgi paralēlismam un metaforai,
+tā kļūst par nozīmīgu cikliskās laika un telpas
+izteiksmes veidu. Personifikācija te nav vairs vienas
+vienīgas traktējuma iespējas (sociālajā plānā)
+demonstrētāja, bet ietver daudznozīmību, tuvojoties
+dažāda līmeņa elementu līdzvērtības izpratnei,
+kā mītiskajā domāšanā. Koks, puķe un cilvēks,
+tauriņš un cilvēks ir viens: "Pa manu ceļu ķirsis
+ziedus kaisa" (III, 61); "Pa pļavu skraida baltas
+puķītes / Ar ziliem tauriņiem" (III, 62).
+}
+
+Semantiski ietilpīgi un daudznozīmīgi  Raiņa vēlīnajā
+dzejā ir arī epiteti un salīdzinājumi. Kā zināms
+starpposms starp agrīno (pirmo triju dzejoļu krājumu)
+un vēlīno dzeju ir filozofiskā posma darbi (galvenokārt
+krājums "Gals un sākums"). Epiteti, salīdzinājumi
+jau te iegūst padziļinājumu, funkcionējot kā
+abstraktu jēdzienu iedzīvinātāji dzejā. ---
+"Tu paliec viens, un apkārt bālē/ Tik tukša, sausa,
+balta smilts" (II, 292); "Aiz divām nāvēm /
+Vēl trešā mīt, --- / Kā sēkliņa akā / Dzīve krīt"
+(II, 323).
+
+Raiņa divdesmito gadu dzejā epitets un salīdzinājums
+kļūst par mākslinieciskās izteiksmes līdzekli, kas
+palīdz sasaistīt dažādus laikus (esošo ar bijušo un
+nākamo, pirmlaiku ar savu laiku) un atrast dzīvās un
+šķietami nedzīvās dabas elementu kopsakaru pasaulē.
+Salīdzinājumos tiek aktualizēti kolektīvajā atmiņā
+iekodētie pirmtēli: mēness, saule, zvaigznes, putas,
+laiva, tauriņš, putns u.c. Piemēram: "Es skaistu sapņu
+tā kā laivas līgots" (III, 303), "Kā mēness spīdu es
+ij pusnaktī" (III, 366); "Uz tavām krūtīm atdusēt, /
+Kā putas dus uz ūdens" (III, 67); "Man atliek tikai bēgt
+kā saulei ziemā" (III, 161).
+
+Savukārt Raiņa divdesmito gadu krājumos lielāko tiesu
+epitetu veido krāsu kods. Atšķirībā no agrīnās dzejas
+krāsu epitetiem ar vienas nozīmes izcelšanu te krāsa
+ir tēlojamās pasaules dziļuma un daudznozīmības zīme:
+
+\begin{quote}
+Zem kājām ezers man mainās:\\
+Sudrabs un zaļš, un zils..\\
+{\em (III, 57)}
+\end{quote}
+
+\begin{quote}
+Aiz melniem kalniem rožu saule laidās:\\
+Zaļš, oranžs, violets\\
+Un zils un sārts --- sirds sapņo ilgās, gaidās.\\
+{\em (III, 375)}
+\end{quote}
+
+\begin{quote}
+Rožaini smaidi,\\
+Sudraboti smiekļi..\\
+{\em (III, 450)}
+\end{quote}
+
+Visnozīmīgākais pārnestās izteiksmes veids Raiņa
+divdesmito gadu dzejā ir simbols --- pirmtēls, kas
+balstīts arhetipiskajā pieredzē. Tas vairs nav
+jaunromantiskā un agrīnā simbolistiskā posma simbols ---
+alegorija ar iekodētu vienu un nepārprotamu nozīmi.
+Simbola --- pirmtēla pamatā ir tautas un vēl plašāk ---
+cilvēces kolektīvās zemapziņas nozīmju uzkrājums, kas ietver
+kā sava laika nozīmju uzslāņojumu, tā visu iepriekšējo laiku
+semantiskos slāņus. Pirmajās dzejoļu grāmatās simbols
+"saule" vedināja lasītāju tikai uz konkrētā laika
+brīvības alkām (tautas, indivīda tiecība uz brīvību),
+bet pēdējās (īpaši impresionistiskajā poētiskajā manierē
+veidotajās) "saule" ietver gadu tūkstošos uzkrāto nozīmju
+dažādos slāņus. No: saule --- augstākais kosmiskais spēks,
+radošā sākotne; Saule --- Mēness kā debesu dievību pāris;
+dzīvības devēja un uzturētāja; auglību, ražību vairojošais
+spēks; gaismas nesēja; nemirstīgā vai cikliski mirstošā
+un atdzimstošā; neizsmeļamā enerģijas krātuve; līdz:
+saule --- brīvība (individuālā, tautas, cilvēces,
+kosmosa), mīlestība; siltums; tuvums, mīļums;
+sievišķais; cerība; atjaunotne; patiesība, taisnība;
+mūžība:
+
+\begin{quote}
+"Vēl tevī pagātne ir nepārciesta, ---\\
+Vēl nespīdi tu pats,\\
+Tik tava dvēsle ir uz sauli griezta."\\
+{\em (III, 141)}
+\end{quote}
+
+\begin{quote}
+Kad citam ziema, --- saule ver man durvis.\\
+{\em (III, 314)}
+\end{quote}
+
+\begin{quote}
+Divas saules\\
+No iekšas, no āras\\
+Satikās ---\\
+Vienā skūpstā.\\
+{\em (III, 490)}
+\end{quote}
+
+\begin{quote}
+Saul' un mēness uz sudraba palaga\\
+Zelta gultā kopā gulēja..\\
+{\em (III, 448)}
+\end{quote}
+
+\begin{quote}
+--- Zini, ka saules mīla\\
+Ved uz aizsaules malu.\\
+{\em (III, 362)}
+\end{quote}
+
+\begin{quote}
+Ne pārvērš svētku brīnums ikdienību,\\
+Bet pārsauļo,\\
+Un saule lēni plaucē nākamību.\\
+{\em (III, 349)}
+\end{quote}
+
+\begin{quote}
+--- Kaut drīzi es kā saule būtu,\\
+Kas peļķēs kāpj un nejūt riebumu!\\
+{\em (III, 528)}
+\end{quote}
+
+\begin{quote}
+Mēs sāksim citu sauli, kad šī gaisīs.\\
+{\em (III, 385)}
+\end{quote}
+
+\begin{quote}
+"Kur ej?"\\
+--- Uz sauli...\\
+{\em (III, 719)}
+\end{quote}
+
+Kas ir tas, kas atļauj lasītājam uztvert
+šīs dažādās simbola "saule" nozīmes un
+nozīmju nianses? Pirmkārt, tā ir jau minētā
+kolektīvā zemapziņas atmiņa, kas visasāk
+aktivizējas sapnī un dzejā, plašāk --- mākslā
+vispār. Otrkārt, tā ir katra cilvēka (lasītāja)
+individuālā pieredze un tēlainās valodas
+uzkrājums. Šis kolektīvā un individuālā
+sakausējums, precīzāk --- arhetipisko semantisko
+struktūru pārradījums atkarībā no katra personisko
+pārdzīvojumu pieredzes tiek uztverts ļoti plašā
+amplitūdā.
+
+Biežāk lietotie arhetipiskie simboli --- pirmtēli
+Raiņa divdesmito gadu dzejā ir jau minētā saule,
+mēness, zvaigznes, nakts/tumsa --- diena/gaisma,
+rudens ---  ziema --- pavasaris --- vasara, koks,
+puķe, zāle, jūra/ūdens, uguns, kalns, dārzs, sēkla,
+vārti, logs, ceļš, čūska, acis, atmiņa, sapnis.
+
+Varētu gaidīt, ka arhetipisko tēlu aktualizācija
+"Dagdas skiču burtnīcās" un plašāk --- vēlīnajā Raiņa
+dzejā vispār gūs plašu atbalsi lasītājos.
+Tomēr tā nenotika. Tieši šī dzeja joprojām lasītājiem
+ir vissvešākā. "Tālu noskaņu zilā vakarā",
+"Vētras sējas", "Klusās grāmatas", arī vēl
+"Gala un sākuma" dzejoļus ar iekšēju patiku vai nepatiku,
+bet gandrīz katrs vidusmēra lasītājs zina un atceras,
+un šad tad pārlasa (vai skolā, augstskolā viņam
+to liek darīt). Raiņa pēdējo gadu dzeja, neskatoties
+uz labvēlīgajām (bet vairākumā gadījumu --- virspusēji
+slavinošajām) kritikas atsauksmēm, palika no latviešu
+dzejas it kā nostatu. Varbūt tāpēc, ka te Rainis uzsāk
+latviešu dzejā pilnīgi citu un citādu izteiksmes veidu, nekā
+tas tradicionāli pierasts. Proti, 19.--20.gs.
+pirmās puses dzejnieki orientējās (noliedzot vai
+apliecinot) uz nozīmēs iepriekšparedzamu tēlu virkni.
+Lai šos tēlus uztvertu, lasītājam parasti bija jāizvēlas
+starp vienu vai divām iespējām (iepriekšējās tradīcijās
+jau izstrādātām). Tas bija jaunais jau labi pazīstamajā,
+galvenokārt apziņas līmenī iekodētajā.
+Rainis "Dagdas skiču burtnīcās" piedāvā klasicisma,
+sentimentālisma, romantisma, reālisma "nekustīgo",
+stabilo, stingri diferencēto tēlu nozīmju skalas
+paplašinājumu un padziļinājumu.
+Lai uztvertu, kas tā par sauli un mēnesi, kas guļ vienā
+gultā, lasītājam ir ne tikvien jāatbrīvojas no racionalizētas
+tēlu uztveres (tēls --- kādas vienas idejas zīme), bet arī
+jārosina vēsturiskā atmiņa un galvenais --- mītiskais/cikliskais
+uztveres un domāšanas veids. Atmiņa (kaut vai tikai
+zemapziņā ieslēgtā) ir tā, kas palīdz sasaistīt
+folkloras un Raiņa dzejas mēness un saules, kā arī
+katra konkrētā "es" (lasītāj) kopējo pārdzīvojumu vilni,
+atrast tiltus, kas pārmetami starp dievību un cilvēku,
+svešu un savu mīlestību, dzīvi un nāvi:
+
+\begin{quote}
+Nu mēness tālē manas ceļa jūtis:\\
+Es nerodu to mīlu jaunadari,\\
+Tik atmiņā spīd saulesloga rūtis.\\
+{\em (III, 341)}
+\end{quote}
+
+Bet 1920.--1940. g. vidusmēra dzejas lasītājs bija
+orientēts uz ierobežotu atmiņu, kas lielākoties
+pagātnē reducējās uz tēliem --- shēmām (Dievs un
+Velns, Lāčplēsis un Laimdota u.c. --- katram pa
+vienai un vienkrāsas funkcijai), nevis tēliem ---
+polivalentu nozīmju tvertnēm. Lai "Dagdas skiču
+burtnīcas" kļūtu ne tikai par literatūras, bet arī
+lasītāju apziņas--zemapziņas faktu, bija vajadzīgs,
+lai šī citāda tipa dzeja nogulsnējas, atrod turpinājumu
+vai pārradījumu (to izdarīja galvenokārt I. Ziedonis)
+vai atdzimst stilizācijās (to izdarīja 1960.--1970. g.
+Raiņa epigoņi). Raiņa "Mēness meitiņas" mīlas
+dzejoļi varēja tikt komponēti (R.Pauls), uztverti
+(resp. kolektīvi izjusti) tikai pēc gandrīz
+deviņdesmit gadu nogulēšanas, pasīvas eksistences
+perioda.
+
+{\bf Metonīmija} --- tropu veids, kur viens jēdziena
+apzīmējums ņemts otra vietā tā iemesla dēļ, ka vienam
+(A) ar otru (B) ir kāds pastāvīgs sakars, piemēram, kā
+daļai ar veselo, materiālam ar lietu, radītājam ar
+radītāju, traukam ar saturu\footnote{Par metonīmiju
+sīkāk sk.: {\em Dziļleja K.} Poētika. --- 44.--45.lpp.;
+{\em Valeinis V.} Ievads literatūras zinātnē. --- R.,
+1978. --- 106.--107.lpp.} u.tml.
+Metonīmija Raiņa dzejai nav raksturīga.
+Protams, var atrast pa atsevišķam metonīmijas paraugam
+("Galvā tev zelts, un tur tūkstots krāsas", III, 50;
+u.c.), bet salīdzinājumā ar metaforu, simbolu vai
+salīdzinājumu, epitetu šis tropu veids Raiņa dzejā
+ir mazsvarīgs.
+
+{\bf Figūras} ieguva savu klasifikāciju jau antīkajos
+laikos, tās tālāk detalizēja un tām īpašu nozīmi piešķīra
+Eiropas baroka un klasicisma dzejā. Romantisms,
+kas nāca kā klasicisma stingrās žanru un metru sistēmas
+nojaucējs, netteicās no figūrām kā tādām, bet sajauca tās,
+saplūdinot robežas starp atsevišķiem to veidiem.
+Divdesmitā gadsimta dzejā visai problemātiski
+runāt par figūrām. Būtu pārspīlējums teikt, ka to
+dzejā nav vai ka tām dzejā nav nekādas nozīmes.
+Dzejnieki teiktā ekspresivitātes pastiprināšanai
+lieto kā divkāršojumu, tā daudzkāršojumu,
+kā anaforu, tā epiforu u.tml. Beet,
+pirmkārt, pazūd stingrs nošķīrums starp atsevišķiem
+figūru veidiem, otrkārt, figūras tiek lietotas
+pēc iekšējas izjūtas un vajadzības, ne pēc
+apzinātiem priekšrakstiem, kā tas bija, piemēram,
+klasicismā. Tas izskaidrojams gan ar formas kā
+saturelementa nozīmes vājināšanos vispār (folklorā forma ---
+tā, kas dod teiktajam maģisku spēku; antīkajā
+retorikā, barokā, klasicismā ir uzskats, ka
+noteikts saturs, tematika saderas ar noteiktām formām),
+gan ar romantisma aizsāktās dažādu stilu, žanru,
+metru, strofu, tropu u.c. izteiksmes līdzekļu robežu
+apzinātu saplūdināšanu.
+
+Šī robežu pazaudēšana, saplūšana starp atsevišķajiem
+izteiksmes līdzekļiem un analizējamo izteiksmes līdzekļu
+skaita samazināsānās salīdzinājumā ar klasicisma laikiem
+vērojama ne tikvien dzejā, bet arī dažādu autoru poētikās.
+Tā Jānis Kalniņš savā "Latviešu rakstniecības
+teorijā"\footnote{{\em Kalniņš J.} Latviešu rakstniecības
+teorija. --- Jelgava, 1892.} nenodala līdzibu ---
+alegoriju no paralēlisma (abus apvienojot figūru
+kategorijā), savukārt Kārlis Dziļleja paralēlismu
+ietilpina tropu jēdzienā,\footnote{{\em Dziļleja K.}
+Poētika. --- 46.--47.lpp.} kurpretī Vitolds Valeinis
+paralēlismu pieskaita (vēsturiski pilnīgi pamatoti)
+pie figūrām.\footnote{{\em Valeinis V.} Ievads
+literatūras zinātnē. --- 114.lpp.} J. Kalniņam
+aplūkojamo tēlainās izteiksmes līdzekļu sastāvā
+ietilpināti ne tikai epiteti, salīdzinājumi,
+metaforas, sinekdohas, metonīmijas, bet arī
+asindetoni, polisindetoni, epanortozes, piemēri
+jeb paraugi (no latīņu {\em exemplum}), bet poētikās,
+kas iznākušas pēc otrā pasaules kara, analizējamo
+tropu un figūru saraksts ir krietni nabagāks. Resp., arī
+poētikas pakāpeniski atspoguļo daudzu agrāk
+funkcionālu tropu, figūru nozīmes zudumu dzejā.
+
+Arī šajā pētījumā nav stingras robežas starp tropiem un
+figūrām. Mēs vismaz 20.gs. dzejā vairs nevaram
+novilkt norobežojošu svītru starp pārnestas
+nozīmes vārdiem (tropiem) un figūrām ---
+vārdiem, kas atšķiras no ikdienā parastā vārdu
+kārtojuma.
+
+Kurš var pateikt, vai epitetā, salīdzinājumā,
+paralēlismā, asindetonā vārdi saglabā tiešo nozīmi
+vai iegūst citu? Jebkurš izteiksmes līdzeklis, vai
+tas būtu epitets vai metafora u.tml., reiz
+dzejā lietots, iegūst kādu citu nozīmes niansi
+un padziļinājumu.
+
+Tāpēc, runājot par figūrām Raiņa dzejā, īstenībā tiek
+turpināta saruna par tropiem vai plašāk ---
+tēlainas izteiksmes līdzekļiem.
+
+{\bf Anafora} (vārdu atkārtojums rindu sākumā)
+un {\bf divkāršojums} (blakus stāvošu vārdu atkārtojums)
+ir figūras, kas atrodamas visos Raiņa dzejoļu
+krājumos, piemēram:
+
+\begin{quote}
+Kur debess ar zemi tiekas,\\
+Kur tālums neplūst vairs,\\
+Tur balta laime man liekas,\\
+Tur tu, tur nogrimst dairs.\\
+{\em (I, 76)}
+\end{quote}
+
+\begin{quote}
+Uz priekšu, uz priekšu! tur darbs, tur spēks..\\
+{\em (I, 118)}
+\end{quote}
+
+\begin{quote}
+Kā pļava tevi sauc!\\
+Kā smilgas zelta spilviņas tev kārsta!\\
+Tev ziedi drēbēs spīdu pārslas bārsta!\\
+* * *
+Cik ziedi sārti!
+Cik zaļa zāle, debess zils, kā saule plaukst!
+Mums veras visa mīlas valsts un vārti!
+\end{quote}
+
+\begin{quote}
+Mēs kalām, kalām,\\
+Ka dzirkstis lēca.\\
+{\em (II, 148)}
+\end{quote}
+
+Ne tikai Raiņa, bet lielā mērā visai 20. gs.
+sākuma romantiskā poētiskā tipa dzejai raksturīgs
+divkāršojuma veids ir viena vārda apvienojums
+saliktenī (bieži pirmajam atmetot galotni un
+apvienojot abus vienā ar defises palīdzību):
+"Dziļ-dziļi dvēselē zaigums" (I, 109);
+"Lēn-lēni dziļāk / Tumsa uz zemi līkst" (I, 77).
+
+Anafora aptuveni vienādi bieži lietota visos
+Raiņa dzejoļu krājumos, savukārt divkāršojumam
+vērojama tendence ar laiku samazināties.
+Tas visvairāk sastopams 1903.--1911. g. darbos,
+daudz retāk 20. gadu dzejā.
+
+Vēlīnajā dzejā Rainis iecienījis figūru, kas nav
+ne īsti {\bf elipse} (kāda teikuma locekļa
+izlaidums), ne {\bf noklusējums} (domas
+nepabeigtība).\footnote{Par šīm figūrām sīkāk sk.
+{\em Valeinis V.} Ievads literatūras zinātnē. --- 119.lpp.}
+Elipsē parasti var restaurēt, kādi konkrēti
+vārdi ir izlaisti, Raiņa dzejā tas nav iespējams.
+Domuzīme, kas parasti noslēdz rindu vai pusrindu,
+vienīgi norāda uz neizteikto, bet neatļauj
+šo neizteikto vārdiski konkretizēt.
+Noklusējums parasti raksturīgs romantiskā
+poētiskā tipa dzejā, un visbiežāk grafiski to
+iezīmē ar daudzpunkti. Turpretī Rainis nekad to
+neiezīmē ar daudzpunkti, bet tikai ar domuzīmi.
+Domuzīme veido kā tiltu, kas vedina lasītāju turpināt
+pašam domu, pārmest pusaprauto domu uz nākamo pusrindu,
+rindu, pantu vai pat dzejoli:
+
+\begin{quote}
+Efeja vija ---\\
+Pār senām drupām zāļu segu auž,\\
+Kā tu ar skaistumu sedz to, kas bija.\\
+Olivia ---\\
+{\em (III, 39)}
+\end{quote}
+
+\begin{quote}
+Reiz motorlaivā braucu --- ko lai stāstu? ---\\
+Pēc sapnī šūpots jutos, jūras aina\\
+Un krasti svaidījās --- --- grib miera glāstu,\\
+Šī sirds lūdz līdzsvara, --- jo tava vaina.\\
+{\em (III, 66)}
+\end{quote}
+
+Raiņa dzejā (īpaši vēlīnajā) viens no iecienītiem
+figūru veidiem ir {\bf asindetons} jeb bezsaikļu
+konstrukcija. Jau antīkajās retorikās atrodam
+norādes uz asindetonu kā svarīgu mākslinieciskās
+izteiksmes līdzekli. Tā, piemēram, Halikarnas
+Dionīsijs "Vēstulē Pompejam" raksta:
+"Jāatceras, ka stila spēcīgumu no visām figūrām
+visvairāk sekmē saistvārdu izlaidums."\footnote{Cit.
+pēc: Античные риторики. --- М., 1978. --- С. 179.}
+
+Konstrukcijas bez saikļiem palīdz dzejā panākt domas
+spraigumu:
+
+\begin{quote}
+Kas dzīve, saule, es --- kas tas, kas dzisa?\\
+{\em (III, 91)}
+\end{quote}
+
+\begin{quote}
+Jo bērnu gadus kopā nodzīvoju\\
+Ar upi, smilti, zāli, sauli, vēju..\\
+{\em (III, 97)}
+\end{quote}
+
+\begin{quote}
+Jūra, priedes, saule, vakars, rīts ---\\
+Viss, kas dārgs man bij, ir sagandīts.\\
+{\em (III, 405)}
+\end{quote}
+
+Un otrādi --- {\bf polisindetons}\footnote{Par
+asindetonu un polisindetonu kā figūrām latviešu
+dzejā rakstījis J.Kalniņš (Ltviešu rakstniecības
+teorija. --- 39.--40.lpp.). Asindetonu viņš
+dēvē par vārdu virkni, polisindetonu par vārdu
+vīteni; A.Bračs pirmo sauc par virkni, otro ---
+par viju. --- {\em Bračs A. Rakstniecības
+teorija. --- Cēsis, 1920. --- 1.d. --- 124--125.lpp.}}
+jeb daudzsaikļu konstrukcija (Raiņa dzejā tā arī
+semantiski nozīmīga figūra) dzejas domas ritējumu padara
+lēnāku, rimtāku:
+
+\begin{quote}
+Ik sīķa asins lāsa\\
+Man rit un tek, un steidz uz sirdi lecot..\\
+{\em (III, 72)}
+\end{quote}
+
+Tomēr polisindetons salīdzinājumā ar asindetonu
+Raiņa dzejā lietots daudz retāk. Iespē'jams, tas ir
+sakarā ar Raiņa tiecību visos iespējamos līmeņos
+padarīt dzejas domu spraigāku, īsāku, koncentrētāku,
+ko polisindetons pretēji bezsaikļu konstrukcijai
+neveicina.
+
+Pirmajiem Raiņa dzejoļiem raksturīgas arī tādas
+figūras kā {\bf retoriskais jautājums} un
+{\bf retoriskā uzruna}. Retoriskais jautājums ir
+spriedums, kas izteikts kā jautājums, kurš neprasa
+atbildi, jo jautājamā forma ir tikai apstiprinājuma
+līdzeklis.\footnote{{\em Valeinis V.} Poētika. ---
+R., 1961.g. --- 215.lpp.} Savukārt retoriskā uzruna
+ir "..tāda uzruna, ar ko dzejnieks pievēršas
+parādībām, kuras nevar atsaukties (nedzīvas vai
+abstraktas parādības, klātneesošas personas,
+bieži --- iedomāts lasītājs u.tml.)"\footnote{{\em
+Valeinis V.} Poētika. --- 215.--216.lpp.} Raiņa
+pirmo dzejoļu krājumu emocionāli kāpinātajā, augstajā
+izteiksmes stilā balstītajā dzejas valodā retoriskais
+jatājums un uzruna ir svarīgi formas elementi:
+
+\begin{quote}
+--- --- --- Ko jūs ļāvāt ikdienībai\\
+Saules smieklus slāpēt sirdī?\\
+{\em (I, 134)}
+\end{quote}
+
+\begin{quote}
+Raudat sev, raudat, ---\\
+Kas gļēvos ies žēlot?\\
+{\em (I, 39)}
+\end{quote}
+
+\begin{quote}
+Ko, senais sapnis,\\
+Tu dvēsli moci,\\
+Tās tālās dienas\\
+Pa miglu loci?\\
+{\em (I, 79)}
+\end{quote}
+
+\begin{quote}
+"Ko esat, pantiņi, tik īsas elpas,\\
+Kā pušu plēstas biklas nopūtas?"\\
+{\em I, 91}
+\end{quote}
+
+Vēlākajās Raiņa grāmatās (īpaši tajās, kas
+nāca klajā 20.gados) retoriskā uzruna un jautājums
+pazūd no dzejoļiem. Tas arī saprotami, jo
+Rainis te ārēji nemanāmi, bet konsekventi
+bināro pretstatu (augstais --- zemais;
+patiesība --- nepatiesība; dzīvība -- nāve u.tml.)
+dzeju nomaina pret ternāro modeli (dzīvība ---
+nāve --- atdzimšana) vai modeli bez krasi izteikta
+tēlu semantikas norobežojuma. Akcents tiek
+likts nevis uz toņiem, bet pustoņiem, kas palīdz
+atklāt lietu un būtņu neviennozīmību. Tā "migla"
+(arī "dūmi") pirmajos dzejoļu krājumos simbolizē
+šķērsli (ceļā uz brīvību), savukārt pēdējos
+tā drīzāk ir vienotāja vai -- gan vienotāja,
+gan šķīrēja, sal.:
+
+\begin{quote}
+Aiz pelēkās miglas dobji dūc\\
+Kā apspiesti vaidi tik drūmi,\\
+Kā zvani dun, kā klaudz, kā rūc,\\
+Kā raud... bet visu māc dūmi.\\
+{\em (I, 221)}
+\end{quote}
+
+\begin{quote}
+Ar manu sirdi gribat jūs mani vilt,\\
+Lai maigās jūtās norimtu tumšots prāts,\\
+Lai liegi izplūstošās miglās\\
+Izzustu plaisa starp jums un mani.\\
+{\em (III, 46)}
+\end{quote}
+
+Raksturīga figūra Raiņa dzejā ir arī {\bf retoriskais
+izsauciens} --- domu un jūtu izpausme
+izsaukuma teikuma veidā.\footnote{Sīkāk par to
+sk.: {\em Valeinis V.} Poētika. --- 216.--217.lpp.}
+Ja Raiņa agrīnajā dzejā patiešām var runāt par retorisko
+izsaucienu kā dzejas domas izpausmi izsaukuma
+jautājuma veidā, tad 20. gadu dzejā tie drīzāk ir
+izsauksmes vārdi (visbiežāk "ak") ---
+emocionāli sakāpinātas runas signalizatori, ne izsaukuma
+teikumi tradicionālā izpratnē, sal.:
+
+\begin{quote}
+Augšā! uz priekšu!\\
+Uzvaras drosmā..\\
+{\em (I, 128)}
+\end{quote}
+
+\begin{quote}
+"Brāz bangas, tu, naidīgā pretvara ---\\
+Mēs tāles sniegsim, kur laimība!\\
+Tu vari mūs šķelt, tu vari mūs lauzt ---\\
+Mēs sniegsim tāles, kur saule aust!"\\
+{\em (I, 137)}
+\end{quote}
+
+\begin{quote}
+Ak, tumšo mirtu ---\\
+Es allaž tevi uzskatu ar bailēm:\\
+Man ir, it kā es pats vai mīla mirtu.\\
+{\em (III, 74)}
+\end{quote}
+
+\begin{quote}
+Ak, saule, --- pieņem mīlu, dod un žēlo,\\
+No tās, pēc tās man dvēsle mūžam kvēlo.\\
+{\em (III, 106)}
+\end{quote}
+
+"Dagdas skiču burtnīcās" retoriskais izsauciens
+bieži apvienots ar retorisku uzrunu vai jautājumu
+(kā, piemēram, iepriekš citētajā III, 74).
+
+Dzeja tradicionāli ir monoloģisks vēstījums,
+bieži "es" formā (semantiski ---
+"es" skatījumā) ietverts. Tā tas ir arī Raiņa pirmajos
+dzejoļu krājumos. Taču sākot ar grāmatu "Gals un sākums",
+Rainis īpašu uzmanību sāk pievērst {\bf dialogam} ---
+"es" sarunai ar īstu vai iedomātu oponentu vai
+domubiedru, plašāk --- sarunu biedru.
+Dialoga forma ir dzejnieka skatu leņķa paplašināšanās,
+dažādu viedokļu vienādiespējamības formālais izteiksmes
+līdzeklis. Kā krājumā "Gals un sākums", tā
+"Dagdas skiču burtnīcās" krietns skaits dzejoļu
+sacerēts jautājumu --- atbilžu virknes formā:
+
+\begin{quote}
+"Es gribu redzēt, kur tavs prieks?" --- Nau tuvu. ---\\
+"Būs grūti jāmeklē?" --- Tev acis gurs. ---\\
+"Gan saulē žibēs? ies pa zaļu druvu?"\\
+--- Būs nakts, tik priekšā spīdēs ugunskurs. ---
+
+"Būs ilgi jāiet?" --- Ilgas tukšas dienas. ---\\
+"Kur iet tavs prieks, zied ceļš?" --- Deg svelošs tvans. ---
+"Un kur tam ceļam gals?" --- Pie pasauls sienas. ---
+
+"Kā prieku pazīt?" --- Sēd pie uguns gans\\
+Un avi sedz. --- "Tas citu prieks!" --- Tas mans. ---
+\end{quote}
+
+Tipoloģiski šī dialoga forma radniecīga daudzu
+tautu folklorā iecienītajiem jautājumu --- atbilžu
+tekstiem, kas parasti bija vai nu
+iniciācijas rituālu piederums
+(neiesvaidītais jautā, iesvaidītais atbild; pirmais ir tas,
+kas vēl sakrālo nepārzina, otrais ir tas, kas to pārzina un
+slēptu zīmju --- simbolu valodā izsaka), vai tika
+rečitēti pasaules pārradīšanas rituālos u.c. ciltij,
+saimei svarīgos brīžos. Tā liela daļa latviešu
+mītisko dziesmu ir rituāli dialogi, kur kāds (acīmredzot ---
+neiesvaidītais) uzdod jautājumus par dievībām, kosmosa
+kārtību un otrs (iesvaidītais, kas bieži runā dievības
+vietā, atbild ar dievības muti) atbild:
+
+{\color{red}
+\begin{quote}
+Kur tas rīta Ausekliņš,\\
+Ka neredz uzlecot?\\
+--- Auseklinš Vāczemē\\
+Samta svārkus šūdināja.\\
+{\em (LD 33 831)}
+\end{quote}
+
+Te simboliskā izteiksmē (šķiet, pastāvēja uzskats, ka
+tieši izteikto kaitētāji gari vai cilvēki var
+noskaust, izjaukt) jautāts par to, kur vakarā pazūd
+Rīta zvaigzne. Atbildē Rīta zvaigznes cikliskā
+nomiršana tēlota kā nokļūšana Vāczemē (t.i. rietumos,
+kas senajiem latviešiem asociējās ar veļu valsti).
+
+Raiņa dzejā dialogi vairumā gadījumu ir saruna pašam
+ar sevi, ar paša pretrunīgajiem dažādajiem "es".
+Varbūt vienīgi pēdējā dzejoļu grāmatā "Mēness meitiņa"
+nojaušams reāls sarunu, pārdomu partneris ("es" un
+iemīļotā). Neskatoties uz to, ka vairākiem dialogiem
+par pamatu varēja būt reāla sarakste, domu apmaiņa
+starp diviem iemīļotajiem, dalogi bieži projicēti
+mītiskā pirmpantā. Mēness --- Saule (piemēram,
+III, 467) vai "es" (folkloras kultūrvaroņa
+veidols) un mākons, es un vējš, es un saule, es un
+mēness.
+
+\begin{quote}
+Kur ir ceļš uz tālo laimes zemi?\\
+"Es to nezinu, man laimes nava,\\
+Man tik ilgas ir, --- bet zinās mākons,\\
+Tas tik balts un laimīgs peld pa gaisu."
+
+Mākoni, kur ceļš uz laimes zemi?\\
+Tu tik balts un laimīgs peld' pa gaisu.
+
+"Es to nezinu, man laimes nava,\\
+MMan tik ilgas ir, kad tālēs tiecos\\
+Balts un starojošs, tad es aiz ilgām\\
+Gaisā izgaistu, --- bet zinās vēji,\\
+Tiem jau visa dzīve ir kā viena deja."
+
+Vēji, kur ir ceļš uz laimes zemi?\\
+Jums jau visa dzīve ir kā deja.
+
+"Mēs to nezinām, mums laimes nava,\\
+Mums tik ilgas ir, mēs sērās gaužam,\\
+Visu zemes virsu apskraidījām,\\
+Laimes neradām, --- bet zinās saule,\\
+Tā jau visu redz un mirdz no laimes."
+
+Saule, kur ir ceļš uz laimes zemi?\\
+Tu jau visu redz' un mirdz' no laimes.
+
+"Es tā nezinu, man laimes nava,\\
+Man tik ilgas ir --- kopš gariem mūžiem\\
+Visiem gaismu dodu, pate akla\\
+Dzenos pirmsaules, --- bet zināsmēness,\\
+Tas jau visu redz, ij to, kas tumsā."
+
+Mēness, kur ir ceļš uz laimes zemi?\\
+Tu jau visu redz', ij to, kas nakti.
+
+"Es to nezinu, man laimes nava,\\
+Man tik ilgas ir pēc tā, kas nava,\\
+Tumsā meklēju, kas bij reiz gaismā,\\
+Ko nu es, --- bet zinās mana meita,\\
+Tā, kas zin visdziļāko, ar dvēsli!"
+
+Mēness, dod man savu mēnessmeitu!
+
+"Ej pats bildināt, kad ir tev drosme!"\\
+Ak, man bailes, bailes, reiba galva.\\
+{\em (III, 469--470)}
+\end{quote}
+
+Dialogs citētajā Raiņa dzejolī "Ceļš uz laimes
+zemi" veidots pēc latviešu un cittautu folklorā
+atrodamā iniciācijas (šai gadījumā --- kāzu
+iniciācijas) tekstu parauga. Proti, kultūrvaronis
+(Raiņa dzejolī --- "es") uzdod jautājumu,
+virkne uzjautāto (tie, kam kāds pārdabisks spēks
+vai zināšanas) mēģina uz to atbildēt.\footnote{Sal.
+līdzīgas struktūras pasakas par brāli, kas dodas
+meklēt pazudušās māsas. Ceļā viņš satiek veceni
+(viens no pārdabisko palīgu variantiem --- te:
+labā burve). Viņš tai lūdz, "..vai nevarot
+pateikt, kur viņa māsas atrodas. Vecene saka:
+"Es tev, brālīt, nevaru pateikt, kur tavas
+māsas atrodas, kad tu noiesi pie manas otrās māsas,
+tad tā varbūt gan to pateiks."" --- Latviešu tautas
+pasakas. --- R., 1956. --- 188.--189.lpp.; parasti
+tikai otrā vai visbiežāk trešā māsa zina īsto
+atbildi.}
+Mēness, kas noslēdz šo pārdabisko atbildētāju virkni,
+iesaka jautātājam iet pašam bildināt mēness meitu
+(iniciācijā tas nozīmē --- iet pārvarēt visus
+ar kāzu iesvētīšanu saistītos pārbaudījumus).
+Raiņa dzejolī atšķirībā no folkloras iniciācijas
+dialogiem "es" (kultūrvaroņa veidolā) nevis dodas
+veikt uzliktos pārbaudījumus, bet modernajam,
+pretrunu un šaubu pārņemtajam cilvēkam raksturīgi
+atbild: "Ak, man bailes, bailes, reiba galva."
+
+Pievēršanās dialoģiskajām struktūrām (līdzīgi
+personifikācijām, paralēlismam, pirmtēliem ---
+arhetipiem u.c.) vēlīnajā dzejā Rainim saistīta
+ar mītiskās domāšanas aktualizāciju. Protams,
+tā nav mītiskā struktūra, kāda tā kādreiz bija
+tautasdziesmā vai pasakā (sal. kaut vai dzejoļa
+"Ceļš uz laimes zemi" nobeigumu ar iniciācijas
+tekstiem folklorā). "Divreiz vienā un tajā pašā
+upē nevar iekāpt", bet var saglabāt vai atjaunot
+atmiņu par iepriekšējām "iekāpšanas reizēm".
+Tā arī Rainim --- divdesmito gadu dzejas neomītiskās
+tendences nenozīmē cikliskās domāšanas restaurēšanu
+pilnībā, bet atsevišķi tās elementi (formā un
+saturā) bagātina dzeju, padara to semantiski
+ietilpīgāku.
+}
+
+Šeit aplūkotie tropi un figūras nebūt pilnībā
+neizsmeļ visu to pārnestās nozīmes vārdu un
+izteicienu klāstu, kas ir Raiņa dzejā. Tika
+aplūkoti nozīmīgākie no tropiem un figūrām,
+mēģinot tos skatīt evolūcijā --- dažādos
+dzejnieka daiļrades posmos. Tā acīm redzami,
+ka pirmajos dzejoļu krājumos iecienīti
+ir tie tropi un figūras, kas palīdz veidot pasaules
+divdalījumu (labais --- ļaunais; apspiedēji ---
+apspiestie u.tml.), turpretī vēlīnajā dzejā
+galvenokārt tie, kas palīdz atklāt
+tēlotā daudznozīmību, dziļumu. Sākumā kultivētais
+klaji retoriskais stils līdz ar tam raksturīgajiem
+tropiem un figūrām pakāpeniski tiek aizstāts ar
+neuzkrītoši retorisko --- slēptās zīmēs ---
+pirmtēlos, metaforās, elipsēs u.c. --- saturu
+izteicošo.
+
+\end{document}
+
+\section{Poētikas terminu vārdnīca}
+
+Te skaidroti
+tikai tie termini, kas lietoti grāmatā vai bez kuriem
+nebūtu iespējama kādu tekstā sastopamo jēdzienu
+pilnīga izpratne. (Tā, piemēram,
+grāmatā sastopams termins {\em polimetrija}, bet nav ---
+{\em monometrija}. Vārdnīcā skaidroti abi.)
+Netiek skaidroti vienkāršākie un praksē visbiežāk
+sastopamie versifikācijas un poētikas jēdzieni (pēda,
+vārsma, atskaņas, salīdzinājums, epitets, metafora
+u.tml., kā arī literārie virzieni.) To skaidrojumu
+var atrast jebkurā literatūrzinātnes terminu vai
+enciklopēdiska rakstura vārdnīcā.
+
+\vspace{10pt}
+
+{\bf Aleksandrietis} (franču {\em alexandrin})
+--- 1) franču dzejā --- divpadsmitzilbju vārsmas
+ar blakusatskaņām un cezūru (vai divām cezūrām),
+kas dala rindu divās (vai trijās) līdzīgās
+daļās. Nosaukums radies no 12.gs. franču poēmas par
+Maķedonijas Aleksandru, kas bija sacerēta šajā
+pantmērā; 2) latviešu dzejā ar terminu "aleksandrietis"
+apzīmē sešpēdu jambā rakstītu dzejoli ar cezūru pēc trešās
+pēdas un blakusatskaņām, sal. A.Čakam:
+
+\begin{quote}
+Reiz peļķe, bruģa zieds, kā tverta Dieva elpā,\\
+Tu viegli pacelsies un būsi visā telpā.\\
+{\bf ("Peļķe, bruģa zieds")}
+\end{quote}
+
+\vspace{10pt}
+
+{\bf Aliterācija} (latīņu {\em alliteratio} no
+{\em ad} 'pie' un {\em littera} 'burts') --- vienādu
+līdzskaņu  (parasti vārdu sākumā) atkārtošana
+dzejas rindās, piemēram:
+
+\begin{quote}
+{\bf V}ēji {\bf v}ilka dūmu {\bf v}īju\\
+Pāri meža {\bf v}irsotnītēm,\\
+Līdzi mana dziesma gāja,\\
+{\bf V}ēja {\bf v}alkā {\bf v}īvinot.\\
+{\em (Rainis, II, 194)}
+\end{quote}
+
+\vspace{10pt}
+
+{\bf Alkaja I strofa\footnote{Alkaja II strofa latviešu
+dzejā sastopama ļoti reti (piemēram, J.Plauža
+dzejolī "Elementi", krāj. "putnu ceļš"), tāpēc šeit to
+neapskatām.}} --- nosaukta sengrieķu dzejnieka Alkaja
+7.--6.gs. pr.Kr.) vārdā. Sastāv no četrām rindām --- pirmās
+divas ir vienpadsmitzilbju, trešā --- deviņzilbju,
+ceturtā --- desmitzilbju rinda. Metriskā shēma antīkajā
+dzejā:
+
+\begin{quote}
+v\footnote{Ar "v" antīkajā dzejā tiek apzīmēta
+īsa zilbe, ar "-"  --- gara, "/" --- metriski uzsvērta,
+bet ar divām vertikālām svītrām "||" --- cezūra.
+Tur, kur metriskajā shēmā vienlaikus tiek iezīmēta
+kā gara, tā īsa zilbe (te katras rindas, izņemot pēdējo,
+sākumā un katras rindas, izņemot trešo, beigās), tas
+nozīmē, ka reāli tā varēja vienlīdz būt kā gara,
+tā īsa. Šādu garuma ziņā mainīgu zilbi sauca par
+ancepsu (lat. {\em anceps} --- te: divdabīgs).} - v - - || - v v - v -\\
+v - v - - || - v v - v -\\
+v - v - v - v - v\\
+- v v - v v - v -v
+\end{quote}
+
+Latviešu dzejā Alkaja I strofu tradicionāli atveido šādi:
+
+\begin{quote}
+v\footnote{Jaunlaiku Eiropas, arī latviešu dzejā ar "v"
+tiek apzīmēta metriski neuzsvērta, "/" --- metriski
+uzsvērta zilbe jeb ikts (sk.).
+Cezūru, tāpat kā antīkajā dzejā, apzīmē ar "||"} / v / v / v v / v /\\
+v / v / v / v v / v /\\
+v / v / v / v / v\\
+/ v v / v v / v / v
+\end{quote}
+
+\begin{quote}
+Par daudz tu mini: --- saule un dailes dārzs!\\
+Kā turp tu laistos --- ziemels un mēness bālst!\\
+Par daudz ir raibi tavi spārni ---\\
+Vienkrāsas netaps ne mēness gaismā.\\
+(Rainis, III, 43)
+\end{quote}
+
+\vspace{10pt}
+
+{\bf Anafora} (grieķu {\em anaphora}) -- viena vai vairāku
+vārdu atkārtojums dzejas rindu sākumā:
+
+\begin{quote}
+{\bf Jo} palīdzības lūgties dvēsle kaunas;\\
+{\bf Jo} nau, kas pats nāk tevi rokās slēgt.\\
+{\em (Rainis, III, 131)}
+\end{quote}
+
+\vspace{10pt}
+
+{\bf Anakrūza} (grieķu {\em anakrusis}) --- metriski
+neuzsvērtās zilbes dzejas rindu sākumā līdz pirmajam
+iktam (sk.) resp., līdz pirmajai metriski uzsvērtajai
+zilbei. Anakrūza var būt 0 zilbj (trohajā, daktilā),
+vienzilbīga (jambā, amfibrahijā), divzilbīga (anapestā).
+Tā var būt pastāvīga vai mainīga. Mainīgas anakrūzas
+paraugs:
+
+\begin{quote}
+No cīņas ar nakti \hspace{10pt} 1\\
+Tā sviedru rasa: \hspace{12.5pt} 1\\
+To zelta traukā \hspace{18.5pt} 1\\
+Saulīte lasa. \hspace{32pt} 0\\
+{\em (Rainis, I, 338)}
+\end{quote}
+
+\vspace{10pt}
+
+{\bf Asindetons} (grieķu {\em asyndetos}) ---
+sintaktiska konstrukcija, kurā vienlīdzīgi teikuma
+locekļi vai salikta teikuma daļas tiek saistītas
+bez saikļu palīdzības. Asindetons ļoti bieži tiek
+lietots tautasdziesmās, lai apzīmētu kopjēdzienus
+("tēvs māmiņa" --- vecāki; "priede egle" --- skuju
+koki; u.tml.). Asindetons mākslas dzejā palīdz
+koncentrēt poētisko domu, ar šo konstrukciju panāk
+lielāku izteiksmes spraigumu:
+
+\begin{quote}
+Pats cīnies, palīdz, domā, spried un sver,\\
+Pats esi kungs, pats laimei durvis ver.\\
+{\em (Rainis, I, 28)}
+\end{quote}
+
+\vspace{10pt}
+
+{\bf Asklepiāda I strofa} --- nosaukta sengrieķu
+dzejnieka Asklepiāda vārdā. Četrrinde, kas
+sastāv no četrreiz atkārtotas Asklepiāda vārsmas:
+
+\begin{quote}
+- - - v v - || - v v - v -\\
+- - - v v - || - v v - v -\\
+- - - v v - || - v v - v -\\
+- - - v v - || - v v - v -
+\end{quote}
+
+Latviešu dzejā tā parasti tiek atveidota šādi:
+
+\begin{quote}
+/ v / v v / || / v v / v /\\
+/ v / v v / || / v v / v /\\
+/ v / v v / || / v v / v /\\
+/ v / v v / || / v v / v /
+\end{quote}
+
+Visbiežāk garās divpadsmitzilbju rindas grafiski
+tiek sadalītas it kā divās (6+6 zilbes), kā,
+piemēram, Jānim Plaudim:
+
+\begin{quote}
+Sniegos kristāli viz ---\\
+\mbox{}\hspace{10pt} tuksnesī smiltis kaist,\\
+Jūrās ūdeņi guldz ---\\
+\mbox{}\hspace{10pt} debešos tvaiki kāpj.\\
+Zvaigznes tālumos mirdz ---\\
+\mbox{}\hspace{10pt} tuvumā sēro sirds;\\
+Sēro tuvumā sirds;\\
+\mbox{}\hspace{10pt} ilgojas tālēs būt.\\
+{\em (J. Plaudis. "Cilvēka sirds")}
+\end{quote}
+
+\vspace{10pt}
+
+{\bf Asklepiāda II strofa} --- četrrinde, kas sastāv
+no trim Asklepiāda divpadsmitzilbju vārsmām (sk.
+Asklepiāda I strofu) un vienas t.s.
+glikoneja\footnote{Glikonejs --- antīkais pantvmērs,
+kas nosaukts grieķu dzejnieka Glikona vārdā:
+- - - v v - v -.} rindas:
+
+\begin{quote}
+- - - v v - || - v v - v -\\
+- - - v v - || - v v - v -\\
+- - - v v - || - v v - v -\\
+- - - v v - v -
+\end{quote}
+
+Ltviešu dzejā šis ir reti lietots Asklepiāda strofas
+variants. Tā metriskā shēma:
+
+\begin{tabular}{ccc}
+\makecell[l]{
+/ v / v v / || / v v / v v\\
+/ v / v v / || / v v / v v\\
+/ v / v v / || / v v / v v\\
+/ v / v v / v v
+} & vai & \makecell[l]{
+/ v / v v / || / v v / v /\\
+/ v / v v / || / v v / v /\\
+/ v / v v / || / v v / v /\\
+/ v / v v / v /
+}
+\end{tabular}
+
+Asklepiāda II strofu pārsvarā atrodam tikai
+antīkās dzejas tulkojumos, piemēram:
+
+\begin{quote}
+Daudziem apraudams, viņš nāvē ir aizgājis,\\
+Visu vairāk tak tev, Vergīlij; bijībā\\
+Velti dievus tev lūgt, viņi lai atdod tev\\
+To, kas aizdots uz laiku bij.\\
+{\em (Horācijs, K. Strauberga tulk.)\footnote{Sk.
+Horātija dzejas. III. Dziesmas. --- R., 1936. ---
+1.--2.grām. --- 38.lpp.}}
+\end{quote}
+
+\vspace{10pt}
+
+{\bf Asklepiāda III strofa} --- Sastāv no divām Asklepiāda
+divpadsmitzilbju vārsmām, vienas ferekrāta\footnote{Sengrieķu
+dzejnieka Ferekrāta vārdā nosaukts pantmērs:
+- - - v v -.} un vienas glikoneja rindas:
+
+\begin{quote}
+- - - v v - || - v v - v -\\
+- - - v v - || - v v - v -\\
+- - - v v - -\\
+- - - v v - v -
+\end{quote}
+
+Latviešu dzejā tā\footnote{Dažreiz Asklepiāda III
+stofu mēdz dēvēt par IV, sk., piem., V. Eglīša
+dzejoli "Versus Asclepiadeus quartus". --
+{\em Eglītis V.} Baltie akmeņi. --- R. 1990. -- 52.lpp.}
+ir no visām Asklepiāda strofām biežāk lietotā:
+
+\begin{tabular}{cc}
+\makecell[l]{
+/ v / v v / || / v v / v /\\
+/ v / v v / || / v v / v /\\
+/ v / v v / v\\
+/ v / v v / v /\\
+\mbox{}
+} & \makecell[l]{
+Katra būtne tik tvīkst --- sākumam galu jaust,\\
+Katru vielu tā spēj --- galībā vien tik jēgt,\\
+Galu nesniegt ir šausmas, ---\\
+Labāk pašai tad galā zust.\\
+{\em (Rainis, II, 393)}
+}
+\end{tabular}
+
+\vspace{10pt}
+
+{\bf Asklepiāda IV strofa} --- pirmā un trešā
+rinda --- glikonejs, bet otrā un ceturtā ---
+Asklepiāda vārsmas. Latviešu tradīcijā tās metriskā
+shēma:
+
+\begin{tabular}{cc}
+\makecell[l]{
+/ v / v v / v /\\
+/ v / v v / || / v v / v /\\
+/ v / v v / v\\
+/ v / v v / || / v v / v /\\
+\mbox{}
+} & \makecell[l]{
+Mūza, jaunava mīlīgā,\\
+Katram dzimstot kādreiz laipna tu smaidīji,\\
+Tādam laimes nav dzīvojot,\\
+Tikai dziesmas un sirds, kurai vairs miera nav.\\
+{\em (V. Eglītis. "Versus Asclepiadeus secundus")\footnote{
+V.Eglītis to dēvē par Asklepiāda II strofu.
+}}
+}
+\end{tabular}
+
+\vspace{10pt}
+
+{\bf Asklepiāda V strofa} --- četrrinde, kuras
+metriskā shēma visās rindās vienāda --- 16 zilbju ar
+divām cezūrām katrā rindā (pēc sestās un desmitās
+zilbes):
+
+\begin{quote}
+- - - v v - || - v v - || - v v - v -
+\end{quote}
+
+Latviski sastopama tulkojumos (/ v / v v / || v v / || / v v / v /):
+
+\begin{quote}
+Jautāt nevajag tev, zināt ir grēks, kādu reiz tev un man\\
+Galu dievi grib dot; Leukonoj, liegts Bābeles skaitļus tev\\
+Saprast. Labāki būs visu, kas lemts, panest un uzņemties,\\
+Lai vēl ziemu jo daudz Jupiters mums dāvā vai pēdējo.\\
+{\em (Horācijs, K. Strauberga tulk.)\footnote{Horātija
+dzejas. --- 29.lpp.}}
+\end{quote}
+
+\vspace{10pt}
+
+{\bf Asonanse} (no latīņu {\em assono}) --- vienādu
+patskaņu, divskaņu atkārtojums vienas, divu, arī vairāk
+rindu vai pat visa dzejoļa ietvaros. Asonanses ļoti
+bieži sastopamas tautas dzejā. Mākslas
+dzejā tās tiek aktualizētas romantiskā poētiskā tipa tekstos
+(tautiskajiem romantiķiem --- Auseklis; simbolistiem,
+jaunromantiķiem - V.Plūdonis, Rainis u.c.):
+
+\begin{quote}
+Bet t{\bf au}rētājs ar savu t{\bf au}ri\\
+L{\bf au}žas viens pats c{\bf au}r sienu c{\bf au}ri.\\
+{\em (Rainis, I, 135)}
+\end{quote}
+
+Šaurākā nozīmē par asonansi sauc arī daļējās atskaņas,
+kurās sakrīt tikai uzsvērtais patskanis, bet nesakrīt
+līdzskaņi (zirgs: pirkt; cirks: vilkt u.tml.).
+
+\vspace{10pt}
+
+{\bf Astrofija} --- dzeja bes dalījuma pantos, pretstatā
+strofiskai (pantos dalītai) un brīvās strofikas
+(dažāda garuma pantu) dzejai:
+
+\begin{quote}
+Pēc lietus kluss bija vakars. Savāds mākons,\\
+Kā balta roka izstiepta pēc tāles,\\
+Mazs gabals varavīksnes pirkstiem pāri\\
+Kā gredzens, mirdzošs dārgiem akmeņiem,\\
+Tā ilgu laiku roka stiepās tālēs,\\
+Līdz bālot zuda gredzens līdzi rokai,\\
+Un nakti jūra tumšā segā sedzās, ---\\
+Vai tava roka sniedzās man no tāles?\\
+{\em (Rainis, III, 549)}
+\end{quote}
+
+
+\vspace{10pt}
+
+{\bf Balāde} (franču {\em ballade}, angļu {\em ballad})
+--- sākotnēji deju dziesma. Balādei jaunlaiku Eiropas
+dzejā ir divi galvenie avoti un līdz ar to paveidi:
+
+\begin{enumerate}[(1)]
+\item t.s. angļu balāde, kuras izcelsme meklējama 14.-16.gs.
+tautas dzejā. Šī tipa balāde bija saistīta ar kara cīņu,
+varoņdarbu un varoņu tematiku (piemēram, balādes par
+Robinu Hudu), bet arī ar cīņu pret pārdabiskiem pretiniekiem,
+ar pusmītiskiem --- pusvēsturiskiem varoņiem u.tml.
+Sentimentālisma un romantisma dzejā no šī angļu tautas
+balādes atzara izveidojās vēsturiskā balāde (V. Skots,
+J.V. Gēte, Ā. Mickevičs, M. Ļermontovs; latviešiem ---
+J.Alunānam, Auseklim, J. Esenberģim --- galvenokārt
+tulkojumos un lokalizējumos; vēlāk ---
+V.Plūdonim, Rainim, E. Virzam, E. Ādamsonam, K. Ābelem
+u.c.). Šim balādes veidam, ko nosacīti var saukt par
+vēsturisko balādi, raksturīgs traģisms,
+noslēpumainības un misticisma nokrāsa, formā ---
+sižetiskums, nereti --- dramatiski dialogi.
+Ne pantforma, ne pantmērs nav stingri noteikts.
+Kārlis Ābele, kas pētījis šo balādes paveidu, raksta:
+"Balādes būtiska pazīme --- augšējā un apakšējā norise.
+Augšējā norise ir nereāla un tinas liktenīgā noslēpumā,
+beidzot saskaras ar apakšējo norisi, kas rit reālā, visiem
+pārredzamā plaknē. Šī abu norišu saskaršanās ir
+arī balādes --- parasti dramatiskais, nereti pat
+traģiskais --- atrisinājums."\footnote{{\em Ābele K.}
+Vēl par balādi // Ceļš. --- 1948. --- Nr. 4/6. --- 168.lpp.}
+Tā kā šī tipa balādes parasti ir samērā apjomīgas, norādīsim
+tikai uz dažiem to avotiem (Rainis I, 336; V.Plūdonis
+"Jumis --- atriebējs", "Tīreļa noslēpums", u.c.);
+\item t.s. franču balāde --- stingrā strofiskā forma,
+kas sastāv no trim astoņrindu pantiem ar vienādām
+atskaņām (ABAB BCBC)\footnote{Te ar lielajiem sākuma
+burtiem apzīmēts tikai atskaņu izkārtojums, ne pats atskaņu
+veids (sievišķās, vīrišķās vai daktiliskās). Turpmāk,
+arī J.Medeņa dzejolī "Balāde par kamenēm", ar
+mazajiem sākuma burtiem (piemēram, a vai b) apzīmētas
+vīrišķās, ar lielajiem --- sieviškās (piemēram,
+A vai B, vai C u.tml.) atskaņas.}
+un noslēdzošas pusstrofas --- četrrindes (BCBC).
+Visos pantos noslēguma rinda ir identa, veidojot
+sava veida refrēnu. Pantmērs --- visbiežāk
+četrpēdu jambs. Franču balādes forma
+kļuvusi populāra, pateicoties F.Vijona dzejoļiem.
+Latviešu dzejā šajā pantformā rakstījuši V.Strēlerte,
+A.Kaugars, bet visvairāk --- J.Medenis:
+
+\begin{tabular}{ll}
+Ceļ žiglos spārnus bišu spiets, & a\\
+Ko dzemdē zeme, miglā tītā, & B\\
+Un smaršīgs vējš to tālē triec & a\\
+Pa puķu klajiem Jāņu rītā: & B\\
+Nu logā, zāļu kroņiem pītā, & B\\
+Kur noliecamies --- tu un es --- & c\\
+Pie pirmā rožu zara šķītā, & B\\
+Dūc skumji samta kamenes. & c\\[6pt]
+Kur zālē zvaigžņu mirdzums liets, & a\\
+Tās pavada mūs lēnā svītā; & B\\
+Un, kur vien vieglo soli liec --- & a\\
+Vai druvā, saules apveltītā, & B\\
+Vai birzī lapu ēnām vītā, & B\\
+Vai dārzā glaudi jasmīnes, --- & c\\
+Kā mākonī, šurp vētras dzītā, & B\\
+Dūc skumji samta kamenes. & c\\[6pt]
+Kad logā puķes raksta riets & a\\
+Bes smaršas --- trauslā sarmas krītā, & B\\
+Tu galvu karstās rokās liec --- & a\\
+Un jautā sapnī aizvadītā: & B\\
+Kur laime staigā, kur gan mīt tā, & B\\
+Kas viņas skūpstus garām nes? & c\\
+Bet rūtī, uguns apzeltītā, & B\\
+Dūc skumji samta kamenes. & c\\[6pt]
+Tās piedzimst tavu acu spītā. & B\\
+Tu saldās mokās velti dves: & c\\
+Vai mūžam būs vai tikai bij tā? & B\\
+Dūc skumji samta kamenes. & c\\
+{\em (J. Medenis. "Balāda par kamenēm")} & \mbox{}
+\end{tabular}
+\end{enumerate}
+
+
+
+\end{document}
