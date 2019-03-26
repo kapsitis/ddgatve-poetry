@@ -1,0 +1,61 @@
+{
+  "book": {
+    "title": "Tālu ceļu vējš",
+    "parts": [
+      {
+        "section": {
+          "title": "Tā puksti sirds",
+          "preamble": {
+            "poem": {
+              "title": "",
+              "verses": [
+                {
+                  "verse": [
+                    "Vienreiz gadā atnāk brīži tādi,",
+                    "Bet lai cauri dzīvei dzirdam to ---",
+                    "Ledus lūst ar dobju kanonādi,",
+                    "Palu straumes spēku atzīstot!"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "poem": {
+          "title": "Dzimtenei",
+          "verses": [
+            {
+              "verse": [
+                "Kaut arī jūlijā",
+                "Tāpat reiba no birztalu tvana ---",
+                "Tās bija citādas vasaras,",
+                "Ausīs vēl tagad skan",
+                "Dziesma, ko dziedāja sanošās vārpas,",
+                "Kuras nebrieda man.",
+                "Taču jau toreiz tu biji",
+                "Dzimtene mana...",
+                "Un tomēr nebiji mana!"
+              ]
+            },
+            {
+              "verse": [
+                "Pa dzimto zemi ejot,",
+                "Visur man kliedza: --- Nav tava! ---",
+                "Un pat robežas smilgainā grāvī",
+                "Nebija zemes man.",
+                "Nebija dzimtās zemes.",
+                "Vectēvs to atrada gan ---",
+                "Jo, kad to nesa",
+                "Zem kapsētas kļavām,",
+                "Neviens neteica: --- Tā nav tava. ---"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+		
