@@ -1,5 +1,8 @@
+*.aux
 .cache-main
 .classpath
+*.log
+*.pdf
 .project
 /.settings/
 /bin/
