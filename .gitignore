@@ -8,3 +8,5 @@
 /bin/
 /project/target/
 /target/
+/ojars-vacietis/
+**/_build/
